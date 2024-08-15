@@ -1,43 +1,36 @@
-# TDoA Downlink Positioning System
+# Project Portfolio
 
-## Project Description
+Welcome to my project portfolio! Below, you'll find an overview of some of the key projects I've worked on, each showcasing different skills and technologies. Whether it's developing software, designing interfaces, or working with robotics, these projects represent a broad range of my interests and capabilities.
 
-This project implements a Time Difference of Arrival (TDoA) Downlink Positioning System, designed to estimate the position of a tag in a given environment using multiple anchors as signal transmitters. The system is built to support high accuracy positioning by leveraging various algorithms and techniques to mitigate errors, improve synchronization, and ensure reliable data transfer.
+---
 
-### System Overview
+### 1. **TDoA Positioning**
+   - **How does it work?**  
+     This project dives into the world of Time Difference of Arrival (TDoA) technology. I implemented a system to pinpoint the location of a tag by analyzing signals sent from multiple anchors. By comparing the time it takes for signals to reach the tag from different points, the system can accurately determine its position. It's a practical demonstration of how TDoA can be used in real-world positioning systems.
+       
+---
+### 2. **Robot Cell Calibration**
+   - **Why is it important?**  
+     Working with mobile robots in manufacturing settings, I focused on calibrating camera systems for precise operations. This project involved calculating the exact positions where a robot should grip components, which is crucial for avoiding collisions and ensuring smooth, autonomous operation. By improving calibration accuracy, the robots can now work more reliably in their designated spaces.
 
-- **Anchors and Tag**: 
-  - Several anchors are deployed to serve as signal transmitters.
-  - A single tag is used to receive these signals.
-  - The anchors are strategically placed in the environment to cover the desired area for positioning.
+---
 
-- **Data Collection and Communication**: 
-  - A router within the office network is utilized to facilitate communication between the anchors and the central processing unit (PC).
-  - The PC continuously pulls data from the anchors and the tag.
-  - **Network Time Protocol (NTP)** is employed to synchronize the clocks of all devices involved, ensuring that the timing measurements are as accurate as possible.
-  - Data is transferred using **MQTT (Message Queuing Telemetry Transport)**, a lightweight messaging protocol ideal for efficient data communication in the system.
+### 3. **Robot Car Navigation**
+   - **What does it do?**  
+     For this project, I developed an algorithm to navigate a robot car, using the Kalman filter for precise movement and position estimation. The control system, which I implemented on a Raspberry Pi, communicates securely with various sensors via SSH. This project was all about ensuring the robot could move accurately and efficiently in real-time, making it a practical application of both statistical analysis and robotics.
 
-### Position Estimation Algorithms
+---
 
-To estimate the position of the tag, several algorithms were implemented and tested:
+### 4. **Quadrocopter GUI**
+   - **What did I build?**  
+     I designed a user-friendly graphical interface for controlling the Tello Edu quadrotor. This isn't just any interface—it displays real-time data from the quadrotor's sensors, including ultrasonic readings, barometric pressure, LED status, and even visual data from the camera. This project really brought the quadrotor's capabilities to life, making it easier and more intuitive to pilot and monitor remotely.
 
-- **Least Squares Estimation (LSE)**: 
-  - A basic approach that minimizes the sum of the squared differences between the observed and calculated time differences.
-  - Provides an initial estimate of the tag's position but may require refinement for higher accuracy.
+---
 
-- **Chan's Algorithm**: 
-  - A more advanced algorithm that improves upon the basic LSE by considering the geometric relationships between the anchors and the tag.
-  - Often used as a benchmark for TDoA systems due to its reliability and accuracy.
+### 5. **Data Tracker (C++)**
+   - **What's it about?**  
+     This project was part of a school assignment where I created a simple yet powerful expense tracking system using C++. The goal was to manage personal finances efficiently, all while applying Object-Oriented Programming (OOP) concepts like classes and inheritance. The end result is a flexible tool that helps users keep track of their spending, all neatly coded in C++.
 
-- **Taylor Series Expansion (Taylor)**: 
-  - This iterative method refines the position estimate by linearizing the range equations and solving them iteratively.
-  - Particularly useful when higher accuracy is needed, as it can fine-tune the initial estimates provided by other methods.
+---
 
-### Clock Frequency Testing and Optimization
-
-- **Clock Synchronization**: 
-  - To further enhance the accuracy of the system, the clock frequencies of the anchors and tag were tested and optimized. This process helps in minimizing the timing errors that can significantly affect the accuracy of the position estimates.
-
-### Conclusion
-
-This project demonstrates a robust implementation of a TDoA Downlink Positioning System, capable of accurately determining the position of a tag within a defined area. The integration of various position estimation algorithms, combined with meticulous synchronization and data transfer mechanisms, ensures that the system provides reliable and accurate results. The work done here lays a solid foundation for future enhancements and applications in various real-world scenarios.
+Thank you for taking the time to explore my projects. Each one has been a valuable learning experience, and I'm excited to continue building and growing in these areas. Feel free to reach out if you'd like to discuss any of these projects further!
