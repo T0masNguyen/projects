@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg172"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Aruco_50mm_ID_01-12_scaled.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview174"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67081231"
+     inkscape:cx="-17.143395"
+     inkscape:cy="383.86296"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-grids="true" />
+  <defs
+     id="defs169">
+    <rect
+       x="1118.0475"
+       y="-298.146"
+       width="383.11761"
+       height="1405.7584"
+       id="rect4991" />
+    <rect
+       x="-101.09243"
+       y="522.83622"
+       width="172.77159"
+       height="160.224"
+       id="rect41357" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558955"
+       id="rect4517" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-0" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-16" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="324.63281"
+       height="61.466261"
+       id="rect4517-06-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-4" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3-1-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73-5-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6-6-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-4" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-8-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1-2" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1-3-0" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-8-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1-7-6-3-1-3-1" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26511231,8.5670356,231.20105)"
+       id="text4515-59-5"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-3);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="24.197266"
+         y="211.32617"
+         id="tspan26328">ArUco: 4x4 50mm </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text41355"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect41357)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4989"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect4991)" />
+    <g
+       id="g25213">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.3307297,0,0,0.33139092,14.659779,-41.164654)"
+         id="text4515-59-9-6-0"
+         style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+         x="13.288782"
+         y="0"><tspan
+           x="59.733374"
+           y="198.09857"
+           id="tspan26332"><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan26330">ID 1
+</tspan></tspan></text>
+      <rect
+         style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect1146"
+         width="64.792999"
+         height="64.792999"
+         x="7.8104997"
+         y="18.914009" />
+      <g
+         style="shape-rendering:crispEdges"
+         id="g3350"
+         transform="matrix(8.3333334,0,0,8.3333334,15.998102,27.432952)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect3293" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect3295" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect3297" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect3299" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#000000"
+           id="rect3301" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect3303" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect3305" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect3307" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect3309" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect3311" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect3313" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect3315" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect3317" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect3319" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#000000"
+           id="rect3321" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect3323" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect3325" />
+      </g>
+    </g>
+    <g
+       id="g25238">
+      <g
+         id="g3004"
+         transform="translate(130.79813,20.631653)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.3307297,0,0,0.33139092,-51.763697,-60.959611)"
+           id="text4515-59-9-6-0-4"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+           x="13.288782"
+           y="0"><tspan
+             x="59.733374"
+             y="198.09857"
+             id="tspan26336"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan26334">ID 2
+</tspan></tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect1146-1"
+           width="64.792999"
+           height="64.792999"
+           x="-58.19463"
+           y="-1.7176442" />
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25071"
+         transform="matrix(8.3333334,0,0,8.3333334,80,26.310508)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25014" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect25016" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect25018" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#ffffff"
+           id="rect25020" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25022" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#000000"
+           id="rect25024" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#000000"
+           id="rect25026" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect25028" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25030" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#000000"
+           id="rect25032" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25034" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect25036" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#000000"
+           id="rect25038" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect25040" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25042" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#000000"
+           id="rect25044" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect25046" />
+      </g>
+    </g>
+    <g
+       id="g25264">
+      <g
+         id="g3135-2"
+         transform="translate(242.725,-69.034263)">
+        <g
+           id="g4267">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+             id="text4515-59-9-6-0-4-2-7"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-4);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+             x="13.288782"
+             y="0"><tspan
+               x="59.733374"
+               y="198.09857"
+               id="tspan26340"><tspan
+                 style="text-align:center;text-anchor:middle"
+                 id="tspan26338">ID 3
+</tspan></tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect1146-1-8-6"
+             width="64.792999"
+             height="64.792999"
+             x="-105.32851"
+             y="87.94828" />
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25130"
+         transform="matrix(8.3333334,0,0,8.3333334,144.79299,26.310517)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25073" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25075" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect25077" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25079" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25081" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25083" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#000000"
+           id="rect25085" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25087" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25089" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#000000"
+           id="rect25091" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect25093" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25095" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#000000"
+           id="rect25097" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25099" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25101" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25103" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25105" />
+      </g>
+    </g>
+    <g
+       id="g25291">
+      <g
+         id="g3135"
+         transform="translate(113.13901,-4.241271)">
+        <g
+           id="g4993">
+          <g
+             id="g5929">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+               id="text4515-59-9-6-0-4-2"
+               style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+               x="13.288782"
+               y="0"><tspan
+                 x="59.733374"
+                 y="198.09857"
+                 id="tspan26344"><tspan
+                   style="text-align:center;text-anchor:middle"
+                   id="tspan26342">ID 4
+</tspan></tspan></text>
+            <rect
+               style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect1146-1-8"
+               width="64.792999"
+               height="64.792999"
+               x="-105.32851"
+               y="87.94828" />
+          </g>
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25189"
+         transform="matrix(8.3333334,0,0,8.3333334,15.207003,91.103509)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25132" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect25134" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25136" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25138" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25140" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#000000"
+           id="rect25142" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25144" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25146" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#000000"
+           id="rect25148" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25150" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25152" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25154" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25156" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect25158" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25160" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25162" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25164" />
+      </g>
+    </g>
+    <g
+       id="g25376">
+      <g
+         id="g8755"
+         transform="translate(-208.36852,19.864469)">
+        <g
+           id="g3135-23-8"
+           transform="translate(386.30053,-24.10574)">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+             id="text4515-59-9-6-0-4-2-00-3"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1-8);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+             x="13.288782"
+             y="0"><tspan
+               x="59.733374"
+               y="198.09857"
+               id="tspan26348"><tspan
+                 style="text-align:center;text-anchor:middle"
+                 id="tspan26346">ID 5
+</tspan></tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect1146-1-8-01-2"
+             width="64.792999"
+             height="64.792999"
+             x="-105.32851"
+             y="87.94828" />
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25350"
+         transform="matrix(8.3333334,0,0,8.3333334,80.000003,91.103509)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25293" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect25295" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25297" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#ffffff"
+           id="rect25299" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25301" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25303" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#000000"
+           id="rect25305" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25307" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25309" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25311" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect25313" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25315" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#000000"
+           id="rect25317" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect25319" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25321" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#000000"
+           id="rect25323" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect25325" />
+      </g>
+    </g>
+    <g
+       id="g25461">
+      <g
+         id="g8788"
+         transform="translate(-218.12134,19.864469)">
+        <g
+           id="g3135-23-1-9"
+           transform="translate(460.84635,-24.10574)">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+             id="text4515-59-9-6-0-4-2-00-9-9"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1-3-1);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+             x="13.288782"
+             y="0"><tspan
+               x="59.733374"
+               y="198.09857"
+               id="tspan26352"><tspan
+                 style="text-align:center;text-anchor:middle"
+                 id="tspan26350">ID 6
+</tspan></tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect1146-1-8-01-6-0"
+             width="64.792999"
+             height="64.792999"
+             x="-105.32851"
+             y="87.94828" />
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25435"
+         transform="matrix(8.3333334,0,0,8.3333334,144.793,91.103509)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25378" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25380" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect25382" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25384" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25386" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25388" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25390" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect25392" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#000000"
+           id="rect25394" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#000000"
+           id="rect25396" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25398" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect25400" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#000000"
+           id="rect25402" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect25404" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25406" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25408" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25410" />
+      </g>
+    </g>
+    <g
+       id="g25841">
+      <g
+         id="g15167"
+         transform="translate(-206.99427,10.905299)">
+        <g
+           id="g3135-7-5"
+           transform="translate(320.13328,49.646421)">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+             id="text4515-59-9-6-0-4-2-0-9"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-8-8);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+             x="13.288782"
+             y="0"><tspan
+               x="59.733374"
+               y="198.09857"
+               id="tspan26356"><tspan
+                 style="text-align:center;text-anchor:middle"
+                 id="tspan26354">ID 7
+</tspan></tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect1146-1-8-0-3"
+             width="64.792999"
+             height="64.792999"
+             x="-105.32851"
+             y="87.94828" />
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25520"
+         transform="matrix(8.3333334,0,0,8.3333334,15.207003,155.8965)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25463" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25465" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25467" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25469" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#000000"
+           id="rect25471" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#000000"
+           id="rect25473" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25475" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25477" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#000000"
+           id="rect25479" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25481" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect25483" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect25485" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25487" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25489" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#000000"
+           id="rect25491" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25493" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25495" />
+      </g>
+    </g>
+    <g
+       id="g25868">
+      <g
+         id="g15281"
+         transform="translate(-220.29689,11.694139)">
+        <g
+           id="g15160">
+          <g
+             id="g3135-23-5"
+             transform="translate(398.2289,48.857581)">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+               id="text4515-59-9-6-0-4-2-00-0"
+               style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1-2);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+               x="13.288782"
+               y="0"><tspan
+                 x="59.733374"
+                 y="198.09857"
+                 id="tspan26360"><tspan
+                   style="text-align:center;text-anchor:middle"
+                   id="tspan26358">ID 8
+</tspan></tspan></text>
+            <rect
+               style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect1146-1-8-01-4"
+               width="64.792999"
+               height="64.792999"
+               x="-105.32851"
+               y="87.94828" />
+          </g>
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25579"
+         transform="matrix(8.3333334,0,0,8.3333334,80.000003,155.8965)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25522" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25524" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25526" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#ffffff"
+           id="rect25528" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25530" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25532" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25534" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect25536" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#000000"
+           id="rect25538" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25540" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect25542" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25544" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25546" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect25548" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#000000"
+           id="rect25550" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25552" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25554" />
+      </g>
+    </g>
+    <g
+       id="g25894">
+      <g
+         id="g15153"
+         transform="translate(-230.04971,11.694139)">
+        <g
+           id="g3135-23-1-2"
+           transform="translate(472.77472,48.857581)">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+             id="text4515-59-9-6-0-4-2-00-9-6"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1-3-0);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+             x="13.288782"
+             y="0"><tspan
+               x="59.733374"
+               y="198.09857"
+               id="tspan26364"><tspan
+                 style="text-align:center;text-anchor:middle"
+                 id="tspan26362">ID 9
+</tspan></tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect1146-1-8-01-6-6"
+             width="64.792999"
+             height="64.792999"
+             x="-105.32851"
+             y="87.94828" />
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25638"
+         transform="matrix(8.3333334,0,0,8.3333334,144.793,155.8965)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25581" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25583" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25585" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25587" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#000000"
+           id="rect25589" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25591" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25593" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect25595" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25597" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#000000"
+           id="rect25599" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect25601" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25603" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25605" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25607" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25609" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25611" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#000000"
+           id="rect25613" />
+      </g>
+    </g>
+    <g
+       id="g25921">
+      <g
+         id="g15582"
+         transform="translate(-205.91251,-0.824448)">
+        <g
+           id="g15132">
+          <g
+             id="g3135-7"
+             transform="translate(319.05152,126.16916)">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+               id="text4515-59-9-6-0-4-2-0"
+               style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-8);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+               x="13.288782"
+               y="0"><tspan
+                 x="54.309637"
+                 y="198.09857"
+                 id="tspan26368"><tspan
+                   style="text-align:center;text-anchor:middle"
+                   id="tspan26366">ID 10
+</tspan></tspan></text>
+            <rect
+               style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect1146-1-8-0"
+               width="64.792999"
+               height="64.792999"
+               x="-105.32851"
+               y="87.94828" />
+          </g>
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25697"
+         transform="matrix(8.3333334,0,0,8.3333334,15.207003,220.68949)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25640" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect25642" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect25644" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#ffffff"
+           id="rect25646" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25648" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25650" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#000000"
+           id="rect25652" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25654" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25656" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25658" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25660" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#000000"
+           id="rect25662" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25664" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25666" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#000000"
+           id="rect25668" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#000000"
+           id="rect25670" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect25672" />
+      </g>
+    </g>
+    <g
+       id="g25948">
+      <g
+         id="g15590"
+         transform="translate(-219.21513,-0.035608)">
+        <g
+           id="g15139">
+          <g
+             id="g3135-23"
+             transform="translate(397.14714,125.38032)">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+               id="text4515-59-9-6-0-4-2-00"
+               style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+               x="13.288782"
+               y="0"><tspan
+                 x="54.309637"
+                 y="198.09857"
+                 id="tspan26372"><tspan
+                   style="text-align:center;text-anchor:middle"
+                   id="tspan26370">ID 11
+</tspan></tspan></text>
+            <rect
+               style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect1146-1-8-01"
+               width="64.792999"
+               height="64.792999"
+               x="-105.32851"
+               y="87.94828" />
+          </g>
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25756"
+         transform="matrix(8.3333334,0,0,8.3333334,80.000003,220.68949)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25699" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect25701" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect25703" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25705" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect25707" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#000000"
+           id="rect25709" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#000000"
+           id="rect25711" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#000000"
+           id="rect25713" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect25715" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25717" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25719" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect25721" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#000000"
+           id="rect25723" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25725" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25727" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25729" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect25731" />
+      </g>
+    </g>
+    <g
+       id="g25975">
+      <g
+         id="g15598"
+         transform="translate(-228.96795,-0.035608)">
+        <g
+           id="g15146">
+          <g
+             id="g3135-23-1"
+             transform="translate(471.69296,125.38032)">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.3307297,0,0,0.33139092,-98.897573,28.706317)"
+               id="text4515-59-9-6-0-4-2-00-9"
+               style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-6-3-1-3);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+               x="13.288782"
+               y="0"><tspan
+                 x="54.309637"
+                 y="198.09857"
+                 id="tspan26376"><tspan
+                   style="text-align:center;text-anchor:middle"
+                   id="tspan26374">ID 12
+</tspan></tspan></text>
+            <rect
+               style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect1146-1-8-01-6"
+               width="64.792999"
+               height="64.792999"
+               x="-105.32851"
+               y="87.94828" />
+          </g>
+        </g>
+      </g>
+      <g
+         style="shape-rendering:crispEdges"
+         id="g25815"
+         transform="matrix(8.3333334,0,0,8.3333334,144.793,220.68949)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect25758" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="1"
+           fill="#000000"
+           id="rect25760" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="1"
+           fill="#000000"
+           id="rect25762" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="1"
+           fill="#000000"
+           id="rect25764" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#000000"
+           id="rect25766" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect25768" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect25770" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="2"
+           fill="#ffffff"
+           id="rect25772" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#000000"
+           id="rect25774" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect25776" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#000000"
+           id="rect25778" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect25780" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect25782" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#000000"
+           id="rect25784" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect25786" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect25788" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect25790" />
+      </g>
+    </g>
+  </g>
+</svg>

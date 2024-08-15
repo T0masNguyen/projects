@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg172"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Aruco_70mm_ID_033-038.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview174"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.6708123"
+     inkscape:cx="-332.43278"
+     inkscape:cy="862.38729"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-grids="true" />
+  <defs
+     id="defs169">
+    <rect
+       x="-438.50779"
+       y="577.64969"
+       width="504.47239"
+       height="462.88873"
+       id="rect9178" />
+    <rect
+       x="1118.0475"
+       y="-298.146"
+       width="383.11761"
+       height="1405.7584"
+       id="rect4991" />
+    <rect
+       x="-101.09243"
+       y="522.83622"
+       width="172.77159"
+       height="160.224"
+       id="rect41357" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558955"
+       id="rect4517" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-0" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-16" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="706.21892"
+       height="78.298293"
+       id="rect4517-06-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-4" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-9-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="267.68666"
+       height="35.847133"
+       id="rect4517-06-9-1-7" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-02-3-1-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-06-1-73-5-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="105.4955"
+       height="46.558956"
+       id="rect4517-52-6-6-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57738"
+       height="24.256549"
+       id="rect4517-06-9-1-7-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-3" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-6" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-5-2" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-3-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-6-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-6-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-5-5" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-3-8" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-6-1" />
+    <rect
+       x="24.198009"
+       y="183.01346"
+       width="352.57739"
+       height="24.25655"
+       id="rect4517-06-9-1-7-5-1-6-1" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text41355"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect41357)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4989"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect4991)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.3307297,0,0,0.33139092,225.55644,68.305797)"
+       id="text4515-59-9-6-0"
+       style="font-style:normal;font-weight:normal;font-size:34.0992px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4517-06-9-1-7);fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.799999"
+       x="13.288782"
+       y="0"><tspan
+         x="24.197266"
+         y="249.03113"
+         id="tspan17753"><tspan
+           dx="0 2.5141501 5.8316627 3.5048246 6.2395878 4.6869755 5.3737888 3.076086 2.5141506 6.5642624 2.8721275 2.7097855 5.4237366"
+           style="font-size:8.5248px;text-align:center;text-anchor:middle"
+           id="tspan17751">IArUco-ID: 42</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.3087339,0,0,0.30871639,-16.127928,-20.837512)"
+       id="text9176"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9178);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.734482" />
+    <g
+       id="g10624">
+      <g
+         id="g24832"
+         transform="translate(-0.10503768,-1.2198281)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.806021,209.01527)"
+           id="text4515-59-9-6-0-1-0-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-5-5);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="96.480023"
+             y="196.21296"
+             id="tspan17755">ArUco-ID: 033 (4Bit, 70mm)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.303217,127.28993)"
+           id="text4515-59-9-6-0-1-1-4-5"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-3-8);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="162.23295"
+             y="198.09857"
+             id="tspan17757">UWB-ID: 
+</tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.207, 0.414;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect30843-4-4"
+           width="93.349464"
+           height="93.34417"
+           x="5.6334925"
+           y="195.67923"
+           ry="4.6018281"
+           rx="4.6018281" />
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g10084"
+         transform="matrix(11.666667,0,0,11.666667,17.203186,206.13149)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect10045"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="1"
+           fill="#ffffff"
+           id="rect10047"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="1"
+           fill="#ffffff"
+           id="rect10049"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="3"
+           y="1"
+           fill="#ffffff"
+           id="rect10051"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="1"
+           fill="#ffffff"
+           id="rect10053"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10055"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10057"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect10059"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect10061"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect10063"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect10065"
+           style="stroke-width:2.04082" />
+      </g>
+    </g>
+    <g
+       id="g10681">
+      <g
+         id="g24825"
+         transform="translate(0,-1.2198443)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,74.657903,209.01526)"
+           id="text4515-59-9-6-0-1-7-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-6-1);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="96.480023"
+             y="196.21296"
+             id="tspan17759">ArUco-ID: 034 (4Bit, 70mm)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,75.114114,127.28992)"
+           id="text4515-59-9-6-0-1-1-49-3"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-6-1);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="162.23295"
+             y="198.09857"
+             id="tspan17761">UWB-ID:  </tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.207, 0.414;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect30843-1-8"
+           width="93.349464"
+           height="93.34417"
+           x="105.05085"
+           y="195.67923"
+           ry="4.6018281"
+           rx="4.6018281" />
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g10662"
+         transform="matrix(11.666667,0,0,11.666667,116.72558,206.13147)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect10626"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect10628"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect10630"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10632"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10634"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect10636"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect10638"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect10640"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect10642"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect10644"
+           style="stroke-width:2.04082" />
+      </g>
+    </g>
+    <g
+       id="g10722">
+      <g
+         id="g24846"
+         transform="translate(-0.10503768,-0.60986899)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.759439,112.93877)"
+           id="text4515-59-9-6-0-1-0-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-5-2);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="96.480023"
+             y="196.21296"
+             id="tspan17763">ArUco-ID: 035 (4Bit, 70mm)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.303229,31.213466)"
+           id="text4515-59-9-6-0-1-1-4-7"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-3-1);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="162.23295"
+             y="198.09857"
+             id="tspan17765">UWB-ID:  </tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.207, 0.414;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect30843-4-5"
+           width="93.349464"
+           height="93.34417"
+           x="5.6334925"
+           y="99.602585"
+           ry="4.6018281"
+           rx="4.6018281" />
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g10707"
+         transform="matrix(11.666667,0,0,11.666667,17.203186,110.6648)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect10683"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect10685"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect10687"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect10689"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect10691"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect10693"
+           style="stroke-width:2.04082" />
+      </g>
+    </g>
+    <g
+       id="g15727">
+      <g
+         id="g24839"
+         transform="translate(0,-0.60987706)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,74.657903,112.93877)"
+           id="text4515-59-9-6-0-1-7-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-6-5);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="96.480023"
+             y="196.21296"
+             id="tspan17767">ArUco-ID: 037 (4Bit, 70mm)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,75.114114,31.213459)"
+           id="text4515-59-9-6-0-1-1-49-0"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-6-5);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="162.23295"
+             y="198.09857"
+             id="tspan17769">UWB-ID:  </tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.207, 0.414;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect30843-1-5"
+           width="93.349464"
+           height="93.34417"
+           x="105.05085"
+           y="99.602585"
+           ry="4.6018281"
+           rx="4.6018281" />
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g10775"
+         transform="matrix(11.666667,0,0,11.666667,116.72558,110.6648)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect10724"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect10726"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect10728"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10730"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect10732"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect10734"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect10736"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect10738"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect10740"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect10742"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect10744"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="4"
+           fill="#ffffff"
+           id="rect10746"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect10748"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect10750"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="4"
+           fill="#ffffff"
+           id="rect10752"
+           style="stroke-width:2.04082" />
+      </g>
+    </g>
+    <g
+       id="g17543">
+      <g
+         id="g24853"
+         transform="translate(-0.10503768)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.759439,16.862275)"
+           id="text4515-59-9-6-0-1-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-5);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="96.480023"
+             y="196.21296"
+             id="tspan17771">ArUco-ID: 038 (4Bit, 70mm)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.385918,0,0,0.38666762,-24.303229,-64.863062)"
+           id="text4515-59-9-6-0-1-1-4"
+           style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-3);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+           x="34.234482"
+           y="0"><tspan
+             x="162.23295"
+             y="198.09857"
+             id="tspan17773">UWB-ID:  </tspan></text>
+        <rect
+           style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.207;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.207, 0.414;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect30843-4"
+           width="93.349464"
+           height="93.34417"
+           x="5.6334925"
+           y="3.5260322"
+           ry="4.6018281"
+           rx="4.6018281" />
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g15780"
+         transform="matrix(11.666667,0,0,11.666667,17.203186,15.198121)">
+        <rect
+           x="0"
+           y="0"
+           width="6"
+           height="6"
+           fill="#000000"
+           id="rect15729"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect15731"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="1"
+           y="2"
+           fill="#ffffff"
+           id="rect15733"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect15735"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="2"
+           y="2"
+           fill="#ffffff"
+           id="rect15737"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect15739"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="4"
+           y="2"
+           fill="#ffffff"
+           id="rect15741"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="1"
+           y="3"
+           fill="#ffffff"
+           id="rect15743"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect15745"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="2"
+           y="3"
+           fill="#ffffff"
+           id="rect15747"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect15749"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1.5"
+           x="3"
+           y="3"
+           fill="#ffffff"
+           id="rect15751"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="4"
+           y="3"
+           fill="#ffffff"
+           id="rect15753"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1.5"
+           height="1"
+           x="2"
+           y="4"
+           fill="#ffffff"
+           id="rect15755"
+           style="stroke-width:2.04082" />
+        <rect
+           width="1"
+           height="1"
+           x="3"
+           y="4"
+           fill="#ffffff"
+           id="rect15757"
+           style="stroke-width:2.04082" />
+      </g>
+    </g>
+    <g
+       id="g17571">
+      <g
+         id="g24861"
+         transform="translate(2.6094858e-5)">
+        <g
+           id="g45090"
+           transform="matrix(1.1668683,0,0,1.1668021,-190.30983,-42.269178)"
+           style="stroke-width:0.857019">
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,227.07593,50.678218)"
+             id="text4515-59-9-6-0-1-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-6);fill:#00cc00;fill-opacity:1;stroke:none;stroke-width:0.685614"
+             x="34.234482"
+             y="0"><tspan
+               x="96.480023"
+               y="196.21296"
+               id="tspan17775">ArUco-ID: 042 (4Bit, 70mm)</tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.3307297,0,0,0.33139092,226.63815,-19.36394)"
+             id="text4515-59-9-6-0-1-1-49"
+             style="font-style:normal;font-weight:normal;font-size:17.0496px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect4517-06-9-1-7-5-1-6);fill:#0000cc;fill-opacity:1;stroke:none;stroke-width:0.685614"
+             x="34.234482"
+             y="0"><tspan
+               x="162.23295"
+               y="198.09857"
+               id="tspan17777">UWB-ID:  </tspan></text>
+          <rect
+             style="fill:none;fill-opacity:0.59;stroke:#000000;stroke-width:0.177403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.177403, 0.354806;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect30843-1"
+             width="80"
+             height="80"
+             x="253.18999"
+             y="39.248482"
+             ry="3.9439664"
+             rx="3.9437425" />
+        </g>
+      </g>
+      <g
+         style="stroke-width:1.42857;shape-rendering:crispEdges"
+         id="g17496"
+         transform="matrix(11.666667,0,0,11.666667,116.8043,15.198121)">
+        <g
+           id="g881"
+           style="stroke-width:1.42857">
+          <rect
+             x="0"
+             y="0"
+             width="6"
+             height="6"
+             fill="#000000"
+             id="rect2"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="1"
+             y="1"
+             fill="#000000"
+             id="rect4"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="2"
+             y="1"
+             fill="#000000"
+             id="rect6"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="3"
+             y="1"
+             fill="#ffffff"
+             id="rect8"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="4"
+             y="1"
+             fill="#ffffff"
+             id="rect10"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="1"
+             y="2"
+             fill="#000000"
+             id="rect12"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="2"
+             y="2"
+             fill="#000000"
+             id="rect14"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="3"
+             y="2"
+             fill="#ffffff"
+             id="rect16"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="4"
+             y="2"
+             fill="#000000"
+             id="rect18"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="1"
+             y="3"
+             fill="#ffffff"
+             id="rect20"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="2"
+             y="3"
+             fill="#000000"
+             id="rect22"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="3"
+             y="3"
+             fill="#000000"
+             id="rect24"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="4"
+             y="3"
+             fill="#000000"
+             id="rect26"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="1"
+             y="4"
+             fill="#ffffff"
+             id="rect28"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="2"
+             y="4"
+             fill="#ffffff"
+             id="rect30"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="3"
+             y="4"
+             fill="#000000"
+             id="rect32"
+             style="stroke-width:2.04082" />
+          <rect
+             width="1"
+             height="1"
+             x="4"
+             y="4"
+             fill="#000000"
+             id="rect34"
+             style="stroke-width:2.04082" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

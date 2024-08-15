@@ -1,0 +1,812 @@
+classdef Tello < matlab.apps.AppBase
+
+    % Properties that correspond to app components
+    properties (Access = public)
+        UIFigure                matlab.ui.Figure
+        RunButton               matlab.ui.control.Button
+        TextArea                matlab.ui.control.TextArea
+        OpenascriptButton       matlab.ui.control.Button
+        TabGroup                matlab.ui.container.TabGroup
+        GrapthTab               matlab.ui.container.Tab
+        SaveButton              matlab.ui.control.Button
+        StartButton             matlab.ui.control.Button
+        StopButton_2            matlab.ui.control.Button
+        ClearButton             matlab.ui.control.Button
+        ParametersPanel         matlab.ui.container.Panel
+        VelocityCheckBox        matlab.ui.control.CheckBox
+        HeightCheckBox          matlab.ui.control.CheckBox
+        HeightLabel             matlab.ui.control.Label
+        OrientationLabel        matlab.ui.control.Label
+        SpeedLabel              matlab.ui.control.Label
+        YawCheckBox             matlab.ui.control.CheckBox
+        PitchCheckBox           matlab.ui.control.CheckBox
+        ZCheckBox               matlab.ui.control.CheckBox
+        YCheckBox               matlab.ui.control.CheckBox
+        RollCheckBox            matlab.ui.control.CheckBox
+        XCheckBox               matlab.ui.control.CheckBox
+        Graph                   matlab.ui.control.UIAxes
+        CameraStreamTab         matlab.ui.container.Tab
+        StopButton              matlab.ui.control.Button
+        StreamButton            matlab.ui.control.Button
+        CameraCanvas            matlab.ui.control.UIAxes
+        DronesInformationPanel  matlab.ui.container.Panel
+        DisconnectButton        matlab.ui.control.Button
+        LandButton              matlab.ui.control.Button
+        CameraLabel             matlab.ui.control.Label
+        CameraTextArea          matlab.ui.control.TextArea
+        BatteryLevelLabel       matlab.ui.control.Label
+        BatteryTextArea         matlab.ui.control.TextArea
+        StateLabel              matlab.ui.control.Label
+        StateTextArea           matlab.ui.control.TextArea
+        IDLabel                 matlab.ui.control.Label
+        IDTextArea              matlab.ui.control.TextArea
+        NameLabel               matlab.ui.control.Label
+        NameTextArea            matlab.ui.control.TextArea
+        TakeoffButton           matlab.ui.control.Button
+        ConnectButton_2         matlab.ui.control.Button
+    end
+
+    
+    properties (Access = private)
+        tello = [];
+        cam;
+        fullpathname;
+        file;
+        path;
+        orientation;
+        time;
+        %Orientation
+        RollLine;
+        PitchLine;
+        YawLine;
+        RollChecked;
+        PitchChecked;
+        YawChecked;
+        %Velocity
+        speedChecked;   
+        speed;
+        speedLine;
+        xLine;
+        yLine;
+        zLine;
+        xchecked;
+        ychecked;
+        zchecked;
+        %Height
+        heightLine;
+        heightChecked;
+        height;
+        
+    end
+    
+    methods (Access = private)
+    
+        function updateControlPanel(app,~,~)
+        %Loading infos to Control Panel
+        app.NameTextArea.Value = app.tello.name;
+        app.CameraTextArea.Value = app.tello.AvailableCameras;
+        app.NameTextArea.Value = app.tello.name;
+        app.CameraTextArea.Value = app.tello.AvailableCameras;   
+        app.IDTextArea.Value = app.tello.id;
+            %updating battery level and state of drone
+            while true
+                try 
+                battery = num2str(app.tello.BatteryLevel);
+                app.BatteryTextArea.Value = [battery,'%'];
+                app.StateTextArea.Value = app.tello.State;            
+                pause(1);
+                catch 
+                    %if program is terminated stops the loop
+                    break;
+                end          
+            end
+        end
+        
+        function addpoint(app,~,~)
+               %Orientation(1) = Yaw;
+               %Orientation(2) = Pitch;
+               %Orientation(3) = Roll;
+               %Orienatation = (Z,Y,X);
+               app.time = tic;
+               
+                   %if checkbox is ticked
+                   %loop to addpoints to animated lines
+                   
+                   while app.RollCheckBox.Value == true                             
+                        app.orientation = rad2deg(readOrientation(app.tello)); 
+                        tStamp = toc(app.time);
+                        roll = app.orientation(3);
+                        addpoints(app.RollLine, tStamp, roll);
+                        if app.PitchCheckBox.Value == true
+                            addpoints(app.PitchLine, tStamp, app.orientation(2));
+                        end
+                        if app.YawCheckBox.Value == true
+                            addpoints(app.YawLine, tStamp, app.orientation(1));
+                        end                        
+                        pause(1);                                                              
+                   end
+               
+               
+                 while app.PitchCheckBox.Value == true
+                   %loop to addpoints to animated lines
+                   
+                        app.orientation = rad2deg(readOrientation(app.tello));                  
+                        tStamp = toc(app.time);
+                        addpoints(app.PitchLine, tStamp, app.orientation(2));
+                        if app.RollCheckBox.Value == true
+                            addpoints(app.PitchLine, tStamp, app.orientation(2));
+                        end
+                        if app.YawCheckBox.Value == true
+                            addpoints(app.YawLine, tStamp, app.orientation(1)); 
+                        end
+                        pause(1);
+                 end
+               
+               
+                while app.YawCheckBox.Value == true
+                   %loop to addpoints to animated lines
+  
+                        app.orientation = rad2deg(readOrientation(app.tello));                  
+                        tStamp = toc(app.time);
+                        addpoints(app.YawLine, tStamp, app.orientation(1));
+                        if app.RollCheckBox.Value == true
+                            addpoints(app.PitchLine, tStamp, app.orientation(2));
+                        end
+                        if app.PitchCheckBox.Value == true
+                            addpoints(app.YawLine, tStamp, app.orientation(1));
+                        end   
+                        pause(1);
+                    
+                  
+               end
+               
+               
+               
+                   
+              while app.VelocityCheckBox.Value
+
+                     
+                     app.speed  = readSpeed(app.tello);
+                     x = app.speed(1);
+                     y = app.speed(2);
+                     z = app.speed(3);
+                     velocity = sqrt(x^2 + y^2 + z^2);
+                     tStamp = toc(app.time);
+                     addpoints(app.speedLine, tStamp, velocity);
+                     if app.XCheckBox.Value == true
+                        addpoints(app.xLine, tStamp, app.speed(1));
+                     end
+                     
+                     if app.ZCheckBox.Value == true
+                        addpoints(app.zLine, tStamp, app.speed(3));
+                     end
+                     if app.YCheckBox.Value == true
+                        addpoints(app.yLine, tStamp, app.speed(2));
+                     end
+                     pause(1);
+                     
+               end
+                  
+               while app.XCheckBox.Value 
+
+                     app.speed  = readSpeed(app.tello);
+                     tStamp = toc(app.time);
+                     addpoints(app.xLine, tStamp, app.speed(1));
+                     if app.YCheckBox.Value == true
+                        addpoints(app.yLine, tStamp, app.speed(2));
+                     end
+                     
+                     if app.ZCheckBox.Value == true
+                        addpoints(app.zLine, tStamp, app.speed(3));
+                     end
+                     if app.VelocityCheckBox.Value == true
+                        velocity = sqrt(x^2 + y^2 + z^2);
+                        addpoints(app.speedLine, tStamp, velocity);
+                     end
+                     pause(1);
+                        
+                end
+                   
+               while app.YCheckBox.Value 
+                     app.speed  = readSpeed(app.tello);
+                     tStamp = toc(app.time);
+                     addpoints(app.yLine, tStamp, app.speed(2));
+                     if app.xchecked == true
+                        addpoints(app.xLine, tStamp, app.speed(1));
+                     end
+                     if app.zchecked == true
+                        addpoints(app.zLine, tStamp, app.speed(3));
+                     end 
+                     pause(1);
+                end
+                   
+               while app.ZCheckBox.Value 
+
+                     app.speed  = readSpeed(app.tello);
+                     tStamp = toc(app.time);
+                     addpoints(app.zLine, tStamp, app.speed(3));
+                     if app.ychecked == true
+                        addpoints(app.yLine, tStamp, app.speed(2));
+                     end
+                     
+                     if app.xchecked == true
+                        addpoints(app.xLine, tStamp, app.speed(1));
+                     end   
+                     pause(1);
+                    
+               end
+           
+              while app.HeightCheckBox.Value == true
+                  app.height = readHeight(app.tello);
+                  tStamp = toc(app.time);
+                  addpoints(app.heightLine, tStamp, app.height);
+                  pause(1);
+              end
+        end
+        
+    end
+    
+
+    % Callbacks that handle component events
+    methods (Access = private)
+
+        % Code that executes after component creation
+        function startupFcn(app)
+            app.RollLine = animatedline(app.Graph,'Color', 'r', 'LineWidth', 2);
+            app.PitchLine = animatedline(app.Graph,'Color', 'g', 'LineWidth', 2);
+            app.YawLine = animatedline(app.Graph,'Color', 'b', 'LineWidth', 2);
+            app.speedLine = animatedline(app.Graph,'Color', 'yellow', 'LineWidth', 2);
+            app.xLine = animatedline(app.Graph,'Color', 'r', 'LineWidth', 2);
+            app.yLine = animatedline(app.Graph,'Color', 'b', 'LineWidth', 2);
+            app.zLine = animatedline(app.Graph,'Color', 'g', 'LineWidth', 2);
+            app.heightLine = animatedline(app.Graph,'Color', 'cyan', 'LineWidth', 2);
+        end
+
+        % Button pushed function: StreamButton
+        function StreamButtonPushed(app, event)
+            app.cam = camera(app.tello);
+            frame = snapshot(app.cam);
+            im = image(app.CameraCanvas,zeros(size(frame),'uint8'));
+            preview(app.cam,im);
+         
+         
+        end
+
+        % Button pushed function: ConnectButton_2
+        function ConnectButton_2Pushed(app, event)
+             app.tello = ryze();
+             %Loading infos to Control Panel
+             app.updateControlPanel();
+        end
+
+        % Button pushed function: StopButton
+        function StopButtonPushed(app, event)
+            cla(app.im);
+        end
+
+        % Button pushed function: OpenascriptButton
+        function OpenascriptButtonPushed(app, event)
+        [app.file,app.path] = uigetfile('*.m', 'MultiSelect', 'off');
+        % Focus on UiFigure to not swap windows
+        drawnow;
+        figure(app.UIFigure);
+        %fullpathname
+        app.fullpathname = strcat(app.path,app.file);
+        app.TextArea.Value = app.fullpathname;
+        
+        end
+
+        % Button pushed function: RunButton
+        function RunButtonPushed(app, event)
+           %running script
+            %assignin('base','r',app.tello);
+            %run(app.fullpathname);
+            if ~isempty(app.tello)
+            app.tello = [];
+            end
+            run(app.fullpathname);
+            
+        end
+
+        % Button pushed function: TakeoffButton
+        function TakeoffButtonPushed(app, event)
+            takeoff(app.tello);
+        end
+
+        % Button pushed function: LandButton
+        function LandButtonPushed(app, event)
+            land(app.tello);
+        end
+
+        % Button pushed function: StartButton
+        function StartButtonPushed(app, event)
+
+      app.addpoint();
+ 
+        end
+
+        % Button pushed function: StopButton_2
+        function StopButton_2Pushed(app, event)
+        % Stop the plot
+            app.RollCheckBox.Value = false;
+            app.PitchCheckBox.Value = false;
+            app.YawCheckBox.Value = false;
+            app.HeightCheckBox.Value = false;
+            app.XCheckBox.Value = false;
+            app.YCheckBox.Value = false;
+            app.ZCheckBox.Value = false;
+            app.VelocityCheckBox.Value = false;
+        end
+
+        % Button pushed function: DisconnectButton
+        function DisconnectButtonPushed(app, event)
+        clear app.tello;
+        end
+
+        % Button pushed function: ClearButton
+        function ClearButtonPushed(app, event)
+        clearpoints(app.RollLine);
+        clearpoints(app.PitchLine);  
+        clearpoints(app.YawLine);
+        clearpoints(app.xLine);
+        clearpoints(app.yLine);
+        clearpoints(app.zLine);
+        clearpoints(app.speedLine);
+        clearpoints(app.heightLine);
+        end
+
+        % Callback function
+        function EmergencyStopButtonPushed(app, event)
+        abort(app.tello);
+        end
+
+        % Value changed function: RollCheckBox
+        function RollCheckBoxValueChanged(app, event)
+            if app.RollCheckBox.Value
+
+            xlabel(app.Graph,'Time (in s)');
+            ylabel(app.Graph,'Orientation (in degrees)');
+            legend(app.Graph, [app.RollLine,app.PitchLine,app.YawLine], 'Roll','Pitch','Yaw');
+
+            end
+        end
+
+        % Value changed function: PitchCheckBox
+        function PitchCheckBoxValueChanged(app, event)
+            if app.PitchCheckBox.Value
+
+               xlabel(app.Graph,'Time (in s)');
+               ylabel(app.Graph,'Orientation (in degrees)');
+               legend(app.Graph, [app.RollLine,app.PitchLine,app.YawLine], 'Roll','Pitch','Yaw');
+             
+            end
+            
+        end
+
+        % Value changed function: YawCheckBox
+        function YawCheckBoxValueChanged(app, event)
+           if app.YawCheckBox.Value
+              
+               xlabel(app.Graph,'Time (in s)');
+               ylabel(app.Graph,'Orientation (in degrees)');
+               legend(app.Graph, [app.RollLine,app.PitchLine,app.YawLine], 'Roll','Pitch','Yaw');
+
+            end
+            
+        end
+
+        % Button pushed function: SaveButton
+        function SaveButtonPushed(app, event)
+           %datatype
+           filter = {'*.png'};
+           [app.file, app.path] = uiputfile(filter);
+           drawnow;
+           figure(app.UIFigure);
+           if isequal(app.file,0) || isequal(app.path,0)
+               app.file = '';
+               app.path = '';
+           else
+               app.fullpathname = strcat(app.path,app.file);
+               exportgraphics(app.Graph,app.fullpathname);
+           
+           end
+           
+           %focus on app
+           %saving plot to the pathname
+
+           
+        end
+
+        % Value changed function: VelocityCheckBox
+        function VelocityCheckBoxValueChanged(app, event)
+            if app.VelocityCheckBox.Value
+                xlabel(app.Graph,'Time (in s)');
+                ylabel(app.Graph,'Velocity in m/s');
+                legend(app.Graph,[app.xLine,app.yLine,app.zLine,app.speedLine], 'X', 'Y','Z','Velocity');
+            
+            end
+
+        end
+
+        % Value changed function: XCheckBox
+        function XCheckBoxValueChanged(app, event)
+            if app.XCheckBox.Value
+                app.xchecked = true;
+                xlabel(app.Graph,'Time (in s)');
+                ylabel(app.Graph,'Velocity in m/s');
+                legend(app.Graph,[app.xLine,app.yLine,app.zLine,app.speedLine], 'X', 'Y','Z','Velocity');
+
+            end
+        end
+
+        % Value changed function: YCheckBox
+        function YCheckBoxValueChanged(app, event)
+             if app.YCheckBox.Value
+                app.ychecked = true;
+                xlabel(app.Graph,'Time (in s)');
+                ylabel(app.Graph,'Velocity in m/s');
+                legend(app.Graph,[app.xLine,app.yLine,app.zLine,app.speedLine], 'X', 'Y','Z','Velocity');
+
+             end
+        end
+
+        % Value changed function: ZCheckBox
+        function ZCheckBoxValueChanged(app, event)
+            if app.ZCheckBox.Value
+                app.zchecked = true;
+                xlabel(app.Graph,'Time (in s)');
+                ylabel(app.Graph,'Velocity in m/s');
+                legend(app.Graph,[app.xLine,app.yLine,app.zLine,app.speedLine], 'X', 'Y','Z','Velocity');
+            end
+        end
+
+        % Value changed function: HeightCheckBox
+        function HeightCheckBoxValueChanged(app, event)
+            if app.HeightCheckBox.Value
+
+               xlabel(app.Graph,'Time (in s)');
+               ylabel(app.Graph,'Height in (m)');
+               legend(app.Graph,[app.heightLine], 'Height');
+
+            end
+        end
+
+        % Key press function: UIFigure
+        function UIFigureKeyPress(app, event)
+            key = event.Key;
+            switch key
+                case 'w'
+                    moveup(app.tello,'Distance',0.3,'WaitUntilDone',false);
+                case 's'
+                    movedown(app.tello,'Distance',0.3,'WaitUntilDone',false);
+                case 'uparrow'
+                    moveforward(app.tello,'Distance',0.3,'WaitUntilDone',false);
+                case 'downarrow'
+                    moveback(app.tello,'Distance',0.3,'WaitUntilDone',false);
+            end
+        end
+    end
+
+    % Component initialization
+    methods (Access = private)
+
+        % Create UIFigure and components
+        function createComponents(app)
+
+            % Create UIFigure and hide until all components are created
+            app.UIFigure = uifigure('Visible', 'off');
+            app.UIFigure.Position = [100 100 800 460];
+            app.UIFigure.Name = 'MATLAB App';
+            app.UIFigure.KeyPressFcn = createCallbackFcn(app, @UIFigureKeyPress, true);
+
+            % Create DronesInformationPanel
+            app.DronesInformationPanel = uipanel(app.UIFigure);
+            app.DronesInformationPanel.Title = 'Drone''s Information';
+            app.DronesInformationPanel.FontWeight = 'bold';
+            app.DronesInformationPanel.Scrollable = 'on';
+            app.DronesInformationPanel.Position = [16 148 258 296];
+
+            % Create ConnectButton_2
+            app.ConnectButton_2 = uibutton(app.DronesInformationPanel, 'push');
+            app.ConnectButton_2.ButtonPushedFcn = createCallbackFcn(app, @ConnectButton_2Pushed, true);
+            app.ConnectButton_2.Position = [20 81 100 22];
+            app.ConnectButton_2.Text = 'Connect';
+
+            % Create TakeoffButton
+            app.TakeoffButton = uibutton(app.DronesInformationPanel, 'push');
+            app.TakeoffButton.ButtonPushedFcn = createCallbackFcn(app, @TakeoffButtonPushed, true);
+            app.TakeoffButton.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.TakeoffButton.FontWeight = 'bold';
+            app.TakeoffButton.Position = [21 29 104 28];
+            app.TakeoffButton.Text = 'Take off';
+
+            % Create NameTextArea
+            app.NameTextArea = uitextarea(app.DronesInformationPanel);
+            app.NameTextArea.Editable = 'off';
+            app.NameTextArea.Position = [130 249 100 23];
+
+            % Create NameLabel
+            app.NameLabel = uilabel(app.DronesInformationPanel);
+            app.NameLabel.BackgroundColor = [0.902 0.902 0.902];
+            app.NameLabel.HorizontalAlignment = 'right';
+            app.NameLabel.FontWeight = 'bold';
+            app.NameLabel.Position = [77 249 38 22];
+            app.NameLabel.Text = 'Name';
+
+            % Create IDTextArea
+            app.IDTextArea = uitextarea(app.DronesInformationPanel);
+            app.IDTextArea.Editable = 'off';
+            app.IDTextArea.Position = [130 217 100 23];
+
+            % Create IDLabel
+            app.IDLabel = uilabel(app.DronesInformationPanel);
+            app.IDLabel.BackgroundColor = [0.902 0.902 0.902];
+            app.IDLabel.HorizontalAlignment = 'right';
+            app.IDLabel.FontWeight = 'bold';
+            app.IDLabel.Position = [90 217 25 22];
+            app.IDLabel.Text = 'ID';
+
+            % Create StateTextArea
+            app.StateTextArea = uitextarea(app.DronesInformationPanel);
+            app.StateTextArea.Editable = 'off';
+            app.StateTextArea.Position = [130 183 100 23];
+
+            % Create StateLabel
+            app.StateLabel = uilabel(app.DronesInformationPanel);
+            app.StateLabel.BackgroundColor = [0.902 0.902 0.902];
+            app.StateLabel.HorizontalAlignment = 'right';
+            app.StateLabel.FontWeight = 'bold';
+            app.StateLabel.Position = [80 183 35 22];
+            app.StateLabel.Text = 'State';
+
+            % Create BatteryTextArea
+            app.BatteryTextArea = uitextarea(app.DronesInformationPanel);
+            app.BatteryTextArea.Editable = 'off';
+            app.BatteryTextArea.Position = [130 149 100 23];
+
+            % Create BatteryLevelLabel
+            app.BatteryLevelLabel = uilabel(app.DronesInformationPanel);
+            app.BatteryLevelLabel.BackgroundColor = [0.902 0.902 0.902];
+            app.BatteryLevelLabel.HorizontalAlignment = 'right';
+            app.BatteryLevelLabel.FontWeight = 'bold';
+            app.BatteryLevelLabel.Position = [34 149 81 22];
+            app.BatteryLevelLabel.Text = 'Battery Level';
+
+            % Create CameraTextArea
+            app.CameraTextArea = uitextarea(app.DronesInformationPanel);
+            app.CameraTextArea.Editable = 'off';
+            app.CameraTextArea.Position = [130 116 100 23];
+
+            % Create CameraLabel
+            app.CameraLabel = uilabel(app.DronesInformationPanel);
+            app.CameraLabel.BackgroundColor = [0.902 0.902 0.902];
+            app.CameraLabel.HorizontalAlignment = 'right';
+            app.CameraLabel.FontWeight = 'bold';
+            app.CameraLabel.Position = [65 116 50 22];
+            app.CameraLabel.Text = 'Camera';
+
+            % Create LandButton
+            app.LandButton = uibutton(app.DronesInformationPanel, 'push');
+            app.LandButton.ButtonPushedFcn = createCallbackFcn(app, @LandButtonPushed, true);
+            app.LandButton.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.LandButton.FontWeight = 'bold';
+            app.LandButton.Position = [131 29 100 28];
+            app.LandButton.Text = 'Land';
+
+            % Create DisconnectButton
+            app.DisconnectButton = uibutton(app.DronesInformationPanel, 'push');
+            app.DisconnectButton.ButtonPushedFcn = createCallbackFcn(app, @DisconnectButtonPushed, true);
+            app.DisconnectButton.Position = [131 81 100 22];
+            app.DisconnectButton.Text = 'Disconnect';
+
+            % Create TabGroup
+            app.TabGroup = uitabgroup(app.UIFigure);
+            app.TabGroup.Position = [284 44 474 400];
+
+            % Create GrapthTab
+            app.GrapthTab = uitab(app.TabGroup);
+            app.GrapthTab.Title = 'Grapth';
+
+            % Create Graph
+            app.Graph = uiaxes(app.GrapthTab);
+            xlabel(app.Graph, 'X')
+            ylabel(app.Graph, 'Y')
+            zlabel(app.Graph, 'Yaw(Down)')
+            app.Graph.XGrid = 'on';
+            app.Graph.YGrid = 'on';
+            app.Graph.ZGrid = 'on';
+            app.Graph.Box = 'on';
+            app.Graph.Position = [134 61 331 284];
+
+            % Create ParametersPanel
+            app.ParametersPanel = uipanel(app.GrapthTab);
+            app.ParametersPanel.ForegroundColor = [0.149 0.149 0.149];
+            app.ParametersPanel.Title = 'Parameters';
+            app.ParametersPanel.BackgroundColor = [1 1 1];
+            app.ParametersPanel.FontWeight = 'bold';
+            app.ParametersPanel.Position = [8 104 118 247];
+
+            % Create XCheckBox
+            app.XCheckBox = uicheckbox(app.ParametersPanel);
+            app.XCheckBox.ValueChangedFcn = createCallbackFcn(app, @XCheckBoxValueChanged, true);
+            app.XCheckBox.Text = 'X';
+            app.XCheckBox.FontName = 'Arial';
+            app.XCheckBox.Position = [6 191 30 22];
+
+            % Create RollCheckBox
+            app.RollCheckBox = uicheckbox(app.ParametersPanel);
+            app.RollCheckBox.ValueChangedFcn = createCallbackFcn(app, @RollCheckBoxValueChanged, true);
+            app.RollCheckBox.Text = 'Roll';
+            app.RollCheckBox.Position = [6 102 43 22];
+
+            % Create YCheckBox
+            app.YCheckBox = uicheckbox(app.ParametersPanel);
+            app.YCheckBox.ValueChangedFcn = createCallbackFcn(app, @YCheckBoxValueChanged, true);
+            app.YCheckBox.Text = 'Y';
+            app.YCheckBox.FontName = 'Arial';
+            app.YCheckBox.Position = [6 170 30 22];
+
+            % Create ZCheckBox
+            app.ZCheckBox = uicheckbox(app.ParametersPanel);
+            app.ZCheckBox.ValueChangedFcn = createCallbackFcn(app, @ZCheckBoxValueChanged, true);
+            app.ZCheckBox.Text = 'Z';
+            app.ZCheckBox.FontName = 'Arial';
+            app.ZCheckBox.Position = [6 149 30 22];
+
+            % Create PitchCheckBox
+            app.PitchCheckBox = uicheckbox(app.ParametersPanel);
+            app.PitchCheckBox.ValueChangedFcn = createCallbackFcn(app, @PitchCheckBoxValueChanged, true);
+            app.PitchCheckBox.Text = 'Pitch';
+            app.PitchCheckBox.Position = [6 81 49 22];
+
+            % Create YawCheckBox
+            app.YawCheckBox = uicheckbox(app.ParametersPanel);
+            app.YawCheckBox.ValueChangedFcn = createCallbackFcn(app, @YawCheckBoxValueChanged, true);
+            app.YawCheckBox.Text = 'Yaw';
+            app.YawCheckBox.Position = [6 60 44 22];
+
+            % Create SpeedLabel
+            app.SpeedLabel = uilabel(app.ParametersPanel);
+            app.SpeedLabel.FontWeight = 'bold';
+            app.SpeedLabel.FontColor = [0.502 0.502 0.502];
+            app.SpeedLabel.Position = [6 207 42 22];
+            app.SpeedLabel.Text = 'Speed';
+
+            % Create OrientationLabel
+            app.OrientationLabel = uilabel(app.ParametersPanel);
+            app.OrientationLabel.FontWeight = 'bold';
+            app.OrientationLabel.FontColor = [0.502 0.502 0.502];
+            app.OrientationLabel.Position = [6 123 70 22];
+            app.OrientationLabel.Text = 'Orientation';
+
+            % Create HeightLabel
+            app.HeightLabel = uilabel(app.ParametersPanel);
+            app.HeightLabel.FontWeight = 'bold';
+            app.HeightLabel.FontColor = [0.502 0.502 0.502];
+            app.HeightLabel.Position = [6 33 42 22];
+            app.HeightLabel.Text = 'Height';
+
+            % Create HeightCheckBox
+            app.HeightCheckBox = uicheckbox(app.ParametersPanel);
+            app.HeightCheckBox.ValueChangedFcn = createCallbackFcn(app, @HeightCheckBoxValueChanged, true);
+            app.HeightCheckBox.Text = 'Height';
+            app.HeightCheckBox.Position = [6 12 57 22];
+
+            % Create VelocityCheckBox
+            app.VelocityCheckBox = uicheckbox(app.ParametersPanel);
+            app.VelocityCheckBox.ValueChangedFcn = createCallbackFcn(app, @VelocityCheckBoxValueChanged, true);
+            app.VelocityCheckBox.Text = 'Velocity';
+            app.VelocityCheckBox.FontName = 'Arial';
+            app.VelocityCheckBox.Position = [49 191 64 22];
+
+            % Create ClearButton
+            app.ClearButton = uibutton(app.GrapthTab, 'push');
+            app.ClearButton.ButtonPushedFcn = createCallbackFcn(app, @ClearButtonPushed, true);
+            app.ClearButton.Icon = 'clear.png';
+            app.ClearButton.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.ClearButton.FontWeight = 'bold';
+            app.ClearButton.Position = [11 22 114 26];
+            app.ClearButton.Text = 'Clear';
+
+            % Create StopButton_2
+            app.StopButton_2 = uibutton(app.GrapthTab, 'push');
+            app.StopButton_2.ButtonPushedFcn = createCallbackFcn(app, @StopButton_2Pushed, true);
+            app.StopButton_2.Icon = 'stop.jpg';
+            app.StopButton_2.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.StopButton_2.FontWeight = 'bold';
+            app.StopButton_2.Position = [341 22 114 26];
+            app.StopButton_2.Text = 'Stop';
+
+            % Create StartButton
+            app.StartButton = uibutton(app.GrapthTab, 'push');
+            app.StartButton.ButtonPushedFcn = createCallbackFcn(app, @StartButtonPushed, true);
+            app.StartButton.Icon = 'Start.png';
+            app.StartButton.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.StartButton.FontWeight = 'bold';
+            app.StartButton.Position = [180 22 114 26];
+            app.StartButton.Text = 'Start';
+
+            % Create SaveButton
+            app.SaveButton = uibutton(app.GrapthTab, 'push');
+            app.SaveButton.ButtonPushedFcn = createCallbackFcn(app, @SaveButtonPushed, true);
+            app.SaveButton.Icon = 'SavePic.png';
+            app.SaveButton.BackgroundColor = [0.9412 0.9412 0.9412];
+            app.SaveButton.FontWeight = 'bold';
+            app.SaveButton.Position = [11 60 114 26];
+            app.SaveButton.Text = 'Save';
+
+            % Create CameraStreamTab
+            app.CameraStreamTab = uitab(app.TabGroup);
+            app.CameraStreamTab.Title = 'Camera Stream';
+            app.CameraStreamTab.HandleVisibility = 'off';
+
+            % Create CameraCanvas
+            app.CameraCanvas = uiaxes(app.CameraStreamTab);
+            app.CameraCanvas.Toolbar.Visible = 'off';
+            app.CameraCanvas.XTick = [];
+            app.CameraCanvas.YTick = [];
+            app.CameraCanvas.ColorOrder = [0 0.4471 0.7412;0.851 0.3255 0.098;0.9294 0.6941 0.1255;0.4941 0.1843 0.5569;0.4667 0.6745 0.1882;0.302 0.7451 0.9333;0.6392 0.0784 0.1804];
+            app.CameraCanvas.Box = 'on';
+            app.CameraCanvas.Position = [28 59 417 274];
+
+            % Create StreamButton
+            app.StreamButton = uibutton(app.CameraStreamTab, 'push');
+            app.StreamButton.ButtonPushedFcn = createCallbackFcn(app, @StreamButtonPushed, true);
+            app.StreamButton.Position = [99 332 100 22];
+            app.StreamButton.Text = 'Stream';
+
+            % Create StopButton
+            app.StopButton = uibutton(app.CameraStreamTab, 'push');
+            app.StopButton.ButtonPushedFcn = createCallbackFcn(app, @StopButtonPushed, true);
+            app.StopButton.Position = [298 332 100 22];
+            app.StopButton.Text = 'Stop';
+
+            % Create OpenascriptButton
+            app.OpenascriptButton = uibutton(app.UIFigure, 'push');
+            app.OpenascriptButton.ButtonPushedFcn = createCallbackFcn(app, @OpenascriptButtonPushed, true);
+            app.OpenascriptButton.Position = [16 102 100 22];
+            app.OpenascriptButton.Text = 'Open a script';
+
+            % Create TextArea
+            app.TextArea = uitextarea(app.UIFigure);
+            app.TextArea.Position = [124 101 150 26];
+
+            % Create RunButton
+            app.RunButton = uibutton(app.UIFigure, 'push');
+            app.RunButton.ButtonPushedFcn = createCallbackFcn(app, @RunButtonPushed, true);
+            app.RunButton.Position = [81 45 105 37];
+            app.RunButton.Text = 'Run';
+
+            % Show the figure after all components are created
+            app.UIFigure.Visible = 'on';
+        end
+    end
+
+    % App creation and deletion
+    methods (Access = public)
+
+        % Construct app
+        function app = Tello
+
+            % Create UIFigure and components
+            createComponents(app)
+
+            % Register the app with App Designer
+            registerApp(app, app.UIFigure)
+
+            % Execute the startup function
+            runStartupFcn(app, @startupFcn)
+
+            if nargout == 0
+                clear app
+            end
+        end
+
+        % Code that executes before app deletion
+        function delete(app)
+
+            % Delete UIFigure when app is deleted
+            delete(app.UIFigure)
+        end
+    end
+end

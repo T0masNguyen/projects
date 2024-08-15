@@ -1,0 +1,5533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="594mm"
+   height="420mm"
+   viewBox="0 0 594 420"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Aruco-Target_A2_16bit_5x7_135-169.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="0.392"
+     inkscape:cx="1151.7857"
+     inkscape:cy="802.29592"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="113"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid328"
+       units="mm"
+       spacingx="10"
+       spacingy="10"
+       originx="0"
+       originy="6" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid65955"
+       units="mm"
+       spacingx="2"
+       spacingy="2"
+       originy="6"
+       empspacing="5"
+       dotted="true"
+       snapvisiblegridlinesonly="true"
+       enabled="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path3951" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path67098" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path67110" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path67104" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path67110-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path67110-3" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Hintergrund"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.343919"
+       id="rect163"
+       width="594"
+       height="420"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Pattern">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20"
+       y="402.82501"
+       id="text3150"><tspan
+         sodipodi:role="line"
+         id="tspan3148"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="20"
+         y="402.82501">Id 135</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100"
+       y="402.82501"
+       id="text3150-4"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="100"
+         y="402.82501">Id 136</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180"
+       y="402.82501"
+       id="text3150-1"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180"
+         y="402.82501">Id 137</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260"
+       y="402.82501"
+       id="text3150-41"><tspan
+         sodipodi:role="line"
+         id="tspan3148-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="260"
+         y="402.82501">Id 138</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340"
+       y="402.82501"
+       id="text3150-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="340"
+         y="402.82501">Id 139</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420"
+       y="402.82501"
+       id="text3150-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="420"
+         y="402.82501">Id 140</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="500"
+       y="402.82501"
+       id="text3150-1-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="500"
+         y="402.82501">Id 141</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20"
+       y="322.82504"
+       id="text3150-7"><tspan
+         sodipodi:role="line"
+         id="tspan3148-68"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="20"
+         y="322.82504">Id 142</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100"
+       y="322.82504"
+       id="text3150-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="100"
+         y="322.82504">Id 143</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180"
+       y="322.82504"
+       id="text3150-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180"
+         y="322.82504">Id 144</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260"
+       y="322.82504"
+       id="text3150-41-5"><tspan
+         sodipodi:role="line"
+         id="tspan3148-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="260"
+         y="322.82504">Id 145</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340"
+       y="322.82504"
+       id="text3150-4-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="340"
+         y="322.82504">Id 146</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420"
+       y="322.82504"
+       id="text3150-1-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="420"
+         y="322.82504">Id 147</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="500"
+       y="322.82504"
+       id="text3150-1-5-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="500"
+         y="322.82504">Id 148</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20"
+       y="242.82504"
+       id="text3150-70"><tspan
+         sodipodi:role="line"
+         id="tspan3148-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="20"
+         y="242.82504">Id 149</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100"
+       y="242.82504"
+       id="text3150-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="100"
+         y="242.82504">Id 150</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180"
+       y="242.82504"
+       id="text3150-1-2"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180"
+         y="242.82504">Id 151</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260"
+       y="242.82504"
+       id="text3150-41-3"><tspan
+         sodipodi:role="line"
+         id="tspan3148-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="260"
+         y="242.82504">Id 152</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340"
+       y="242.82504"
+       id="text3150-4-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-4-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="340"
+         y="242.82504">Id 153</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420"
+       y="242.82504"
+       id="text3150-1-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-51"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="420"
+         y="242.82504">Id 154</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="500"
+       y="242.82504"
+       id="text3150-1-5-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="500"
+         y="242.82504">Id 155</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20"
+       y="162.82495"
+       id="text3150-8"><tspan
+         sodipodi:role="line"
+         id="tspan3148-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="20"
+         y="162.82495">Id 156</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100"
+       y="162.82495"
+       id="text3150-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="100"
+         y="162.82495">Id 157</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180"
+       y="162.82495"
+       id="text3150-1-27"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180"
+         y="162.82495">Id 158</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260"
+       y="162.82495"
+       id="text3150-41-9"><tspan
+         sodipodi:role="line"
+         id="tspan3148-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="260"
+         y="162.82495">Id 159</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340"
+       y="162.82495"
+       id="text3150-4-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="340"
+         y="162.82495">Id 160</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420"
+       y="162.82495"
+       id="text3150-1-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="420"
+         y="162.82495">Id 161</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="500"
+       y="162.82495"
+       id="text3150-1-5-8-5"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="500"
+         y="162.82495">Id 162</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20"
+       y="82.824951"
+       id="text3150-46"><tspan
+         sodipodi:role="line"
+         id="tspan3148-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="20"
+         y="82.824951">Id 163</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100"
+       y="82.824951"
+       id="text3150-4-07"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-49"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="100"
+         y="82.824951">Id 164</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180"
+       y="82.824951"
+       id="text3150-1-47"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180"
+         y="82.824951">Id 165</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260"
+       y="82.824951"
+       id="text3150-41-1"><tspan
+         sodipodi:role="line"
+         id="tspan3148-2-39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="260"
+         y="82.824951">Id 166</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340"
+       y="82.824951"
+       id="text3150-4-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan3148-6-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="340"
+         y="82.824951">Id 167</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420"
+       y="82.824951"
+       id="text3150-1-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-58"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="420"
+         y="82.824951">Id 168</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="500"
+       y="82.824951"
+       id="text3150-1-5-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="500"
+         y="82.824951">Id 169</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-200.02249"
+       y="577.09387"
+       id="text4423"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan4421"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="-200.02249"
+         y="577.09387">Aruco Dict 4x4 | 5x7 Marker  | 60mm | Ids 135 - 169</tspan></text>
+    <circle
+       id="path1284"
+       cx="575"
+       cy="21"
+       r="5"
+       style="fill:#0b5cd5;stroke-width:0.264583" />
+    <g
+       id="g75944"
+       transform="translate(0,316)">
+      <rect
+         x="20"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="30"
+         fill="#000000"
+         id="rect4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="30"
+         fill="#000000"
+         id="rect6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="30"
+         fill="#000000"
+         id="rect8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="30"
+         fill="#000000"
+         id="rect10"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="40"
+         fill="#000000"
+         id="rect12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="40"
+         fill="#ffffff"
+         id="rect14"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="40"
+         fill="#000000"
+         id="rect16"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="40"
+         fill="#ffffff"
+         id="rect18"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="50"
+         fill="#ffffff"
+         id="rect20"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="50"
+         fill="#000000"
+         id="rect22"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="50"
+         fill="#ffffff"
+         id="rect24"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="50"
+         fill="#ffffff"
+         id="rect26"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="60"
+         fill="#000000"
+         id="rect28"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="60"
+         fill="#ffffff"
+         id="rect30"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="60"
+         fill="#000000"
+         id="rect32"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="60"
+         fill="#ffffff"
+         id="rect34"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g76259"
+       transform="translate(0,316)">
+      <rect
+         x="100"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="30"
+         fill="#000000"
+         id="rect4-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="30"
+         fill="#000000"
+         id="rect6-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="30"
+         fill="#000000"
+         id="rect8-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="30"
+         fill="#000000"
+         id="rect10-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="40"
+         fill="#ffffff"
+         id="rect12-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="40"
+         fill="#ffffff"
+         id="rect14-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="40"
+         fill="#ffffff"
+         id="rect16-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="40"
+         fill="#ffffff"
+         id="rect18-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="50"
+         fill="#ffffff"
+         id="rect20-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="50"
+         fill="#000000"
+         id="rect22-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="50"
+         fill="#000000"
+         id="rect24-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="50"
+         fill="#ffffff"
+         id="rect26-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="60"
+         fill="#000000"
+         id="rect28-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="60"
+         fill="#000000"
+         id="rect30-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="60"
+         fill="#000000"
+         id="rect32-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="60"
+         fill="#ffffff"
+         id="rect34-4"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g76591"
+       transform="translate(0,316)">
+      <rect
+         x="180"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="30"
+         fill="#000000"
+         id="rect4-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="30"
+         fill="#000000"
+         id="rect6-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="30"
+         fill="#000000"
+         id="rect8-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="30"
+         fill="#000000"
+         id="rect10-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="40"
+         fill="#000000"
+         id="rect12-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="40"
+         fill="#ffffff"
+         id="rect14-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="40"
+         fill="#ffffff"
+         id="rect16-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="40"
+         fill="#ffffff"
+         id="rect18-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="50"
+         fill="#ffffff"
+         id="rect20-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="50"
+         fill="#ffffff"
+         id="rect22-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="50"
+         fill="#000000"
+         id="rect24-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="50"
+         fill="#ffffff"
+         id="rect26-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="60"
+         fill="#ffffff"
+         id="rect28-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="60"
+         fill="#000000"
+         id="rect30-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="60"
+         fill="#ffffff"
+         id="rect32-76"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="60"
+         fill="#ffffff"
+         id="rect34-6"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g76940"
+       transform="translate(0,316)">
+      <rect
+         x="260"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-08"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="30"
+         fill="#000000"
+         id="rect4-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="30"
+         fill="#000000"
+         id="rect6-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="30"
+         fill="#000000"
+         id="rect8-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="30"
+         fill="#ffffff"
+         id="rect10-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="40"
+         fill="#ffffff"
+         id="rect12-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="40"
+         fill="#ffffff"
+         id="rect14-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="40"
+         fill="#ffffff"
+         id="rect16-15"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="40"
+         fill="#000000"
+         id="rect18-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="50"
+         fill="#ffffff"
+         id="rect20-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="50"
+         fill="#ffffff"
+         id="rect22-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="50"
+         fill="#ffffff"
+         id="rect24-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="50"
+         fill="#000000"
+         id="rect26-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="60"
+         fill="#000000"
+         id="rect28-76"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="60"
+         fill="#ffffff"
+         id="rect30-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="60"
+         fill="#000000"
+         id="rect32-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="60"
+         fill="#000000"
+         id="rect34-1"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g77306"
+       transform="translate(0,316)">
+      <rect
+         x="340"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="30"
+         fill="#000000"
+         id="rect4-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="30"
+         fill="#000000"
+         id="rect6-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="30"
+         fill="#000000"
+         id="rect8-72"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="30"
+         fill="#ffffff"
+         id="rect10-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="40"
+         fill="#000000"
+         id="rect12-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="40"
+         fill="#ffffff"
+         id="rect14-65"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="40"
+         fill="#000000"
+         id="rect16-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="40"
+         fill="#000000"
+         id="rect18-55"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="50"
+         fill="#000000"
+         id="rect20-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="50"
+         fill="#000000"
+         id="rect22-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="50"
+         fill="#ffffff"
+         id="rect24-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="50"
+         fill="#ffffff"
+         id="rect26-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="60"
+         fill="#ffffff"
+         id="rect28-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="60"
+         fill="#000000"
+         id="rect30-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="60"
+         fill="#000000"
+         id="rect32-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="60"
+         fill="#ffffff"
+         id="rect34-5"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g77689"
+       transform="translate(0,326)">
+      <rect
+         x="420"
+         y="10"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="20"
+         fill="#000000"
+         id="rect4-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="20"
+         fill="#000000"
+         id="rect6-24"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="20"
+         fill="#000000"
+         id="rect8-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="20"
+         fill="#ffffff"
+         id="rect10-55"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="30"
+         fill="#ffffff"
+         id="rect12-25"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="30"
+         fill="#ffffff"
+         id="rect14-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="30"
+         fill="#000000"
+         id="rect16-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="30"
+         fill="#ffffff"
+         id="rect18-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="40"
+         fill="#ffffff"
+         id="rect20-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="40"
+         fill="#000000"
+         id="rect22-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="40"
+         fill="#000000"
+         id="rect24-27"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="40"
+         fill="#000000"
+         id="rect26-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="50"
+         fill="#000000"
+         id="rect28-32"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="50"
+         fill="#000000"
+         id="rect30-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="50"
+         fill="#000000"
+         id="rect32-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="50"
+         fill="#000000"
+         id="rect34-0"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g78089"
+       transform="translate(0,316)">
+      <rect
+         x="500"
+         y="20"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-65"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="30"
+         fill="#000000"
+         id="rect4-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="30"
+         fill="#000000"
+         id="rect6-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="30"
+         fill="#000000"
+         id="rect8-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="30"
+         fill="#ffffff"
+         id="rect10-33"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="40"
+         fill="#000000"
+         id="rect12-51"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="40"
+         fill="#ffffff"
+         id="rect14-61"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="40"
+         fill="#000000"
+         id="rect16-45"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="40"
+         fill="#ffffff"
+         id="rect18-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="50"
+         fill="#ffffff"
+         id="rect20-41"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="50"
+         fill="#ffffff"
+         id="rect22-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="50"
+         fill="#000000"
+         id="rect24-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="50"
+         fill="#000000"
+         id="rect26-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="60"
+         fill="#ffffff"
+         id="rect28-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="60"
+         fill="#000000"
+         id="rect30-89"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="60"
+         fill="#000000"
+         id="rect32-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="60"
+         fill="#000000"
+         id="rect34-7"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g78506"
+       transform="translate(0,156)">
+      <rect
+         x="20"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="110"
+         fill="#000000"
+         id="rect4-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="110"
+         fill="#000000"
+         id="rect6-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="110"
+         fill="#000000"
+         id="rect8-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="110"
+         fill="#ffffff"
+         id="rect10-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="120"
+         fill="#ffffff"
+         id="rect12-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="120"
+         fill="#ffffff"
+         id="rect14-44"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="120"
+         fill="#ffffff"
+         id="rect16-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="120"
+         fill="#ffffff"
+         id="rect18-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="130"
+         fill="#ffffff"
+         id="rect20-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="130"
+         fill="#000000"
+         id="rect22-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="130"
+         fill="#000000"
+         id="rect24-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="130"
+         fill="#000000"
+         id="rect26-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="140"
+         fill="#ffffff"
+         id="rect28-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="140"
+         fill="#000000"
+         id="rect30-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="140"
+         fill="#ffffff"
+         id="rect32-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="140"
+         fill="#ffffff"
+         id="rect34-3"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g78940"
+       transform="translate(0,156)">
+      <rect
+         x="100"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="110"
+         fill="#000000"
+         id="rect4-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="110"
+         fill="#000000"
+         id="rect6-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="110"
+         fill="#000000"
+         id="rect8-68"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="110"
+         fill="#ffffff"
+         id="rect10-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="120"
+         fill="#000000"
+         id="rect12-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="120"
+         fill="#ffffff"
+         id="rect14-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="120"
+         fill="#000000"
+         id="rect16-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="120"
+         fill="#ffffff"
+         id="rect18-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="130"
+         fill="#ffffff"
+         id="rect20-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="130"
+         fill="#000000"
+         id="rect22-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="130"
+         fill="#ffffff"
+         id="rect24-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="130"
+         fill="#ffffff"
+         id="rect26-95"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="140"
+         fill="#ffffff"
+         id="rect28-77"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="140"
+         fill="#000000"
+         id="rect30-80"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="140"
+         fill="#ffffff"
+         id="rect32-18"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="140"
+         fill="#000000"
+         id="rect34-8"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g79391"
+       transform="translate(0,156)">
+      <rect
+         x="180"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="110"
+         fill="#000000"
+         id="rect4-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="110"
+         fill="#000000"
+         id="rect6-12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="110"
+         fill="#000000"
+         id="rect8-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="110"
+         fill="#ffffff"
+         id="rect10-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="120"
+         fill="#ffffff"
+         id="rect12-01"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="120"
+         fill="#ffffff"
+         id="rect14-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="120"
+         fill="#000000"
+         id="rect16-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="120"
+         fill="#ffffff"
+         id="rect18-85"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="130"
+         fill="#ffffff"
+         id="rect20-22"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="130"
+         fill="#000000"
+         id="rect22-38"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="130"
+         fill="#ffffff"
+         id="rect24-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="130"
+         fill="#ffffff"
+         id="rect26-77"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="140"
+         fill="#000000"
+         id="rect28-74"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="140"
+         fill="#000000"
+         id="rect30-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="140"
+         fill="#000000"
+         id="rect32-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="140"
+         fill="#ffffff"
+         id="rect34-2"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g79859"
+       transform="translate(0,156)">
+      <rect
+         x="260"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-95"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="110"
+         fill="#000000"
+         id="rect4-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="110"
+         fill="#000000"
+         id="rect6-94"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="110"
+         fill="#ffffff"
+         id="rect8-686"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="110"
+         fill="#000000"
+         id="rect10-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="120"
+         fill="#000000"
+         id="rect12-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="120"
+         fill="#000000"
+         id="rect14-51"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="120"
+         fill="#000000"
+         id="rect16-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="120"
+         fill="#000000"
+         id="rect18-12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="130"
+         fill="#ffffff"
+         id="rect20-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="130"
+         fill="#000000"
+         id="rect22-70"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="130"
+         fill="#000000"
+         id="rect24-48"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="130"
+         fill="#000000"
+         id="rect26-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="140"
+         fill="#000000"
+         id="rect28-20"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="140"
+         fill="#000000"
+         id="rect30-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="140"
+         fill="#000000"
+         id="rect32-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="140"
+         fill="#000000"
+         id="rect34-71"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g80344"
+       transform="translate(0,156)">
+      <rect
+         x="340"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-28"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="110"
+         fill="#000000"
+         id="rect4-83"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="110"
+         fill="#000000"
+         id="rect6-04"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="110"
+         fill="#ffffff"
+         id="rect8-03"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="110"
+         fill="#000000"
+         id="rect10-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="120"
+         fill="#ffffff"
+         id="rect12-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="120"
+         fill="#000000"
+         id="rect14-50"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="120"
+         fill="#000000"
+         id="rect16-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="120"
+         fill="#000000"
+         id="rect18-26"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="130"
+         fill="#ffffff"
+         id="rect20-19"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="130"
+         fill="#ffffff"
+         id="rect22-54"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="130"
+         fill="#ffffff"
+         id="rect24-882"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="130"
+         fill="#000000"
+         id="rect26-10"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="140"
+         fill="#ffffff"
+         id="rect28-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="140"
+         fill="#000000"
+         id="rect30-70"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="140"
+         fill="#000000"
+         id="rect32-05"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="140"
+         fill="#ffffff"
+         id="rect34-69"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g80846"
+       transform="translate(0,156)">
+      <rect
+         x="420"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-85"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="110"
+         fill="#000000"
+         id="rect4-14"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="110"
+         fill="#000000"
+         id="rect6-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="110"
+         fill="#ffffff"
+         id="rect8-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="110"
+         fill="#000000"
+         id="rect10-39"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="120"
+         fill="#000000"
+         id="rect12-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="120"
+         fill="#000000"
+         id="rect14-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="120"
+         fill="#ffffff"
+         id="rect16-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="120"
+         fill="#000000"
+         id="rect18-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="130"
+         fill="#ffffff"
+         id="rect20-39"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="130"
+         fill="#000000"
+         id="rect22-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="130"
+         fill="#ffffff"
+         id="rect24-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="130"
+         fill="#000000"
+         id="rect26-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="140"
+         fill="#000000"
+         id="rect28-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="140"
+         fill="#000000"
+         id="rect30-57"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="140"
+         fill="#ffffff"
+         id="rect32-28"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="140"
+         fill="#000000"
+         id="rect34-9"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g81365"
+       transform="translate(0,156)">
+      <rect
+         x="500"
+         y="100"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="110"
+         fill="#000000"
+         id="rect4-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="110"
+         fill="#000000"
+         id="rect6-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="110"
+         fill="#ffffff"
+         id="rect8-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="110"
+         fill="#000000"
+         id="rect10-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="120"
+         fill="#ffffff"
+         id="rect12-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="120"
+         fill="#000000"
+         id="rect14-74"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="120"
+         fill="#000000"
+         id="rect16-80"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="120"
+         fill="#000000"
+         id="rect18-11"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="130"
+         fill="#000000"
+         id="rect20-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="130"
+         fill="#ffffff"
+         id="rect22-41"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="130"
+         fill="#000000"
+         id="rect24-21"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="130"
+         fill="#ffffff"
+         id="rect26-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="140"
+         fill="#000000"
+         id="rect28-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="140"
+         fill="#000000"
+         id="rect30-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="140"
+         fill="#ffffff"
+         id="rect32-14"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="140"
+         fill="#ffffff"
+         id="rect34-13"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g81901"
+       transform="translate(0,-4)">
+      <rect
+         x="20"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-40"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="190"
+         fill="#000000"
+         id="rect4-96"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="190"
+         fill="#000000"
+         id="rect6-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="190"
+         fill="#ffffff"
+         id="rect8-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="190"
+         fill="#000000"
+         id="rect10-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="200"
+         fill="#ffffff"
+         id="rect12-91"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="200"
+         fill="#000000"
+         id="rect14-56"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="200"
+         fill="#ffffff"
+         id="rect16-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="200"
+         fill="#000000"
+         id="rect18-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="210"
+         fill="#ffffff"
+         id="rect20-51"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="210"
+         fill="#ffffff"
+         id="rect22-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="210"
+         fill="#ffffff"
+         id="rect24-03"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="210"
+         fill="#ffffff"
+         id="rect26-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="220"
+         fill="#000000"
+         id="rect28-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="220"
+         fill="#000000"
+         id="rect30-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="220"
+         fill="#000000"
+         id="rect32-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="220"
+         fill="#000000"
+         id="rect34-45"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g86834"
+       transform="translate(0,-4)">
+      <rect
+         x="100"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-53"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="190"
+         fill="#000000"
+         id="rect4-99"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="190"
+         fill="#000000"
+         id="rect6-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="190"
+         fill="#ffffff"
+         id="rect8-30"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="190"
+         fill="#000000"
+         id="rect10-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="200"
+         fill="#000000"
+         id="rect12-90"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="200"
+         fill="#000000"
+         id="rect14-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="200"
+         fill="#ffffff"
+         id="rect16-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="200"
+         fill="#000000"
+         id="rect18-38"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="210"
+         fill="#ffffff"
+         id="rect20-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="210"
+         fill="#ffffff"
+         id="rect22-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="210"
+         fill="#ffffff"
+         id="rect24-66"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="210"
+         fill="#ffffff"
+         id="rect26-96"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="220"
+         fill="#000000"
+         id="rect28-64"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="220"
+         fill="#ffffff"
+         id="rect30-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="220"
+         fill="#ffffff"
+         id="rect32-09"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="220"
+         fill="#ffffff"
+         id="rect34-12"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g87404"
+       transform="translate(0,-4)">
+      <rect
+         x="180"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-99"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="190"
+         fill="#000000"
+         id="rect4-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="190"
+         fill="#000000"
+         id="rect6-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="190"
+         fill="#ffffff"
+         id="rect8-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="190"
+         fill="#000000"
+         id="rect10-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="200"
+         fill="#ffffff"
+         id="rect12-82"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="200"
+         fill="#000000"
+         id="rect14-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="200"
+         fill="#000000"
+         id="rect16-68"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="200"
+         fill="#ffffff"
+         id="rect18-852"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="210"
+         fill="#000000"
+         id="rect20-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="210"
+         fill="#ffffff"
+         id="rect22-92"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="210"
+         fill="#000000"
+         id="rect24-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="210"
+         fill="#000000"
+         id="rect26-49"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="220"
+         fill="#000000"
+         id="rect28-70"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="220"
+         fill="#000000"
+         id="rect30-51"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="220"
+         fill="#000000"
+         id="rect32-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="220"
+         fill="#000000"
+         id="rect34-90"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g87991"
+       transform="translate(0,-4)">
+      <rect
+         x="260"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="190"
+         fill="#000000"
+         id="rect4-15"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="190"
+         fill="#000000"
+         id="rect6-11"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="190"
+         fill="#ffffff"
+         id="rect8-75"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="190"
+         fill="#000000"
+         id="rect10-19"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="200"
+         fill="#000000"
+         id="rect12-57"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="200"
+         fill="#000000"
+         id="rect14-566"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="200"
+         fill="#000000"
+         id="rect16-819"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="200"
+         fill="#ffffff"
+         id="rect18-13"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="210"
+         fill="#000000"
+         id="rect20-26"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="210"
+         fill="#ffffff"
+         id="rect22-17"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="210"
+         fill="#000000"
+         id="rect24-80"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="210"
+         fill="#000000"
+         id="rect26-91"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="220"
+         fill="#000000"
+         id="rect28-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="220"
+         fill="#ffffff"
+         id="rect30-55"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="220"
+         fill="#ffffff"
+         id="rect32-84"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="220"
+         fill="#000000"
+         id="rect34-38"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g88595"
+       transform="translate(0,-4)">
+      <rect
+         x="340"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-62"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="190"
+         fill="#000000"
+         id="rect4-90"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="190"
+         fill="#000000"
+         id="rect6-15"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="190"
+         fill="#ffffff"
+         id="rect8-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="190"
+         fill="#000000"
+         id="rect10-08"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="200"
+         fill="#ffffff"
+         id="rect12-68"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="200"
+         fill="#000000"
+         id="rect14-25"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="200"
+         fill="#000000"
+         id="rect16-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="200"
+         fill="#ffffff"
+         id="rect18-46"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="210"
+         fill="#ffffff"
+         id="rect20-04"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="210"
+         fill="#000000"
+         id="rect22-75"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="210"
+         fill="#ffffff"
+         id="rect24-487"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="210"
+         fill="#ffffff"
+         id="rect26-48"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="220"
+         fill="#ffffff"
+         id="rect28-15"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="220"
+         fill="#000000"
+         id="rect30-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="220"
+         fill="#000000"
+         id="rect32-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="220"
+         fill="#ffffff"
+         id="rect34-25"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g89216"
+       transform="translate(0,-4)">
+      <rect
+         x="420"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-98"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="190"
+         fill="#000000"
+         id="rect4-54"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="190"
+         fill="#000000"
+         id="rect6-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="190"
+         fill="#ffffff"
+         id="rect8-34"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="190"
+         fill="#000000"
+         id="rect10-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="200"
+         fill="#ffffff"
+         id="rect12-53"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="200"
+         fill="#000000"
+         id="rect14-0"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="200"
+         fill="#ffffff"
+         id="rect16-99"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="200"
+         fill="#ffffff"
+         id="rect18-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="210"
+         fill="#ffffff"
+         id="rect20-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="210"
+         fill="#000000"
+         id="rect22-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="210"
+         fill="#000000"
+         id="rect24-667"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="210"
+         fill="#ffffff"
+         id="rect26-41"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="220"
+         fill="#ffffff"
+         id="rect28-14"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="220"
+         fill="#ffffff"
+         id="rect30-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="220"
+         fill="#000000"
+         id="rect32-46"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="220"
+         fill="#000000"
+         id="rect34-30"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g89854"
+       transform="translate(0,-4)">
+      <rect
+         x="500"
+         y="180"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-1"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="190"
+         fill="#000000"
+         id="rect4-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="190"
+         fill="#000000"
+         id="rect6-87"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="190"
+         fill="#ffffff"
+         id="rect8-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="190"
+         fill="#000000"
+         id="rect10-31"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="200"
+         fill="#ffffff"
+         id="rect12-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="200"
+         fill="#000000"
+         id="rect14-747"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="200"
+         fill="#ffffff"
+         id="rect16-90"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="200"
+         fill="#ffffff"
+         id="rect18-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="210"
+         fill="#ffffff"
+         id="rect20-08"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="210"
+         fill="#000000"
+         id="rect22-389"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="210"
+         fill="#ffffff"
+         id="rect24-809"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="210"
+         fill="#ffffff"
+         id="rect26-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="220"
+         fill="#000000"
+         id="rect28-04"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="220"
+         fill="#000000"
+         id="rect30-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="220"
+         fill="#ffffff"
+         id="rect32-86"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="220"
+         fill="#000000"
+         id="rect34-47"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g90509"
+       transform="translate(0,-164)">
+      <rect
+         x="20"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-26"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="270"
+         fill="#000000"
+         id="rect4-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="270"
+         fill="#000000"
+         id="rect6-33"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="270"
+         fill="#ffffff"
+         id="rect8-79"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="270"
+         fill="#ffffff"
+         id="rect10-64"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="280"
+         fill="#ffffff"
+         id="rect12-917"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="280"
+         fill="#000000"
+         id="rect14-10"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="280"
+         fill="#000000"
+         id="rect16-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="280"
+         fill="#000000"
+         id="rect18-42"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="290"
+         fill="#ffffff"
+         id="rect20-97"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="290"
+         fill="#ffffff"
+         id="rect22-603"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="290"
+         fill="#000000"
+         id="rect24-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="290"
+         fill="#000000"
+         id="rect26-415"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="300"
+         fill="#ffffff"
+         id="rect28-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="300"
+         fill="#000000"
+         id="rect30-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="300"
+         fill="#ffffff"
+         id="rect32-54"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="300"
+         fill="#000000"
+         id="rect34-76"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g91181"
+       transform="translate(0,-154)">
+      <rect
+         x="100"
+         y="250"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-24"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="260"
+         fill="#000000"
+         id="rect4-84"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="260"
+         fill="#000000"
+         id="rect6-64"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="260"
+         fill="#ffffff"
+         id="rect8-17"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="260"
+         fill="#ffffff"
+         id="rect10-24"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="270"
+         fill="#ffffff"
+         id="rect12-15"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="270"
+         fill="#000000"
+         id="rect14-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="270"
+         fill="#000000"
+         id="rect16-00"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="270"
+         fill="#000000"
+         id="rect18-386"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="280"
+         fill="#000000"
+         id="rect20-21"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="280"
+         fill="#000000"
+         id="rect22-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="280"
+         fill="#ffffff"
+         id="rect24-56"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="280"
+         fill="#000000"
+         id="rect26-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="290"
+         fill="#ffffff"
+         id="rect28-5"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="290"
+         fill="#ffffff"
+         id="rect30-87"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="290"
+         fill="#ffffff"
+         id="rect32-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="290"
+         fill="#000000"
+         id="rect34-40"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g91870"
+       transform="translate(0,-164)">
+      <rect
+         x="180"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-75"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="270"
+         fill="#000000"
+         id="rect4-97"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="270"
+         fill="#000000"
+         id="rect6-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="270"
+         fill="#ffffff"
+         id="rect8-12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="270"
+         fill="#ffffff"
+         id="rect10-41"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="280"
+         fill="#000000"
+         id="rect12-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="280"
+         fill="#000000"
+         id="rect14-76"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="280"
+         fill="#000000"
+         id="rect16-16"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="280"
+         fill="#000000"
+         id="rect18-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="290"
+         fill="#000000"
+         id="rect20-44"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="290"
+         fill="#000000"
+         id="rect22-77"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="290"
+         fill="#000000"
+         id="rect24-3"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="290"
+         fill="#000000"
+         id="rect26-58"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="300"
+         fill="#000000"
+         id="rect28-48"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="300"
+         fill="#ffffff"
+         id="rect30-31"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="300"
+         fill="#ffffff"
+         id="rect32-66"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="300"
+         fill="#ffffff"
+         id="rect34-06"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g92576"
+       transform="translate(0,-164)">
+      <rect
+         x="260"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-80"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="270"
+         fill="#000000"
+         id="rect4-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="270"
+         fill="#000000"
+         id="rect6-238"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="270"
+         fill="#ffffff"
+         id="rect8-83"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="270"
+         fill="#ffffff"
+         id="rect10-49"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="280"
+         fill="#ffffff"
+         id="rect12-83"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="280"
+         fill="#000000"
+         id="rect14-75"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="280"
+         fill="#000000"
+         id="rect16-39"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="280"
+         fill="#000000"
+         id="rect18-520"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="290"
+         fill="#ffffff"
+         id="rect20-34"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="290"
+         fill="#ffffff"
+         id="rect22-52"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="290"
+         fill="#ffffff"
+         id="rect24-19"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="290"
+         fill="#000000"
+         id="rect26-50"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="300"
+         fill="#000000"
+         id="rect28-232"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="300"
+         fill="#ffffff"
+         id="rect30-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="300"
+         fill="#ffffff"
+         id="rect32-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="300"
+         fill="#ffffff"
+         id="rect34-85"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g93299"
+       transform="translate(0,-164)">
+      <rect
+         x="340"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="270"
+         fill="#000000"
+         id="rect4-994"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="270"
+         fill="#000000"
+         id="rect6-32"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="270"
+         fill="#ffffff"
+         id="rect8-697"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="270"
+         fill="#ffffff"
+         id="rect10-99"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="280"
+         fill="#ffffff"
+         id="rect12-81"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="280"
+         fill="#000000"
+         id="rect14-00"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="280"
+         fill="#ffffff"
+         id="rect16-02"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="280"
+         fill="#000000"
+         id="rect18-62"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="290"
+         fill="#000000"
+         id="rect20-45"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="290"
+         fill="#ffffff"
+         id="rect22-79"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="290"
+         fill="#000000"
+         id="rect24-30"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="290"
+         fill="#000000"
+         id="rect26-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="300"
+         fill="#ffffff"
+         id="rect28-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="300"
+         fill="#000000"
+         id="rect30-44"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="300"
+         fill="#000000"
+         id="rect32-58"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="300"
+         fill="#ffffff"
+         id="rect34-20"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g94039"
+       transform="translate(0,-164)">
+      <rect
+         x="420"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="270"
+         fill="#000000"
+         id="rect4-85"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="270"
+         fill="#000000"
+         id="rect6-7"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="270"
+         fill="#ffffff"
+         id="rect8-681"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="270"
+         fill="#ffffff"
+         id="rect10-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="280"
+         fill="#ffffff"
+         id="rect12-87"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="280"
+         fill="#000000"
+         id="rect14-68"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="280"
+         fill="#ffffff"
+         id="rect16-95"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="280"
+         fill="#000000"
+         id="rect18-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="290"
+         fill="#000000"
+         id="rect20-91"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="290"
+         fill="#ffffff"
+         id="rect22-2"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="290"
+         fill="#ffffff"
+         id="rect24-44"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="290"
+         fill="#000000"
+         id="rect26-713"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="300"
+         fill="#000000"
+         id="rect28-84"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="300"
+         fill="#ffffff"
+         id="rect30-12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="300"
+         fill="#000000"
+         id="rect32-08"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="460"
+         y="300"
+         fill="#ffffff"
+         id="rect34-457"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g94796"
+       transform="translate(0,-164)">
+      <rect
+         x="500"
+         y="260"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-859"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="270"
+         fill="#000000"
+         id="rect4-86"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="270"
+         fill="#000000"
+         id="rect6-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="270"
+         fill="#ffffff"
+         id="rect8-54"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="270"
+         fill="#ffffff"
+         id="rect10-11"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="280"
+         fill="#000000"
+         id="rect12-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="280"
+         fill="#000000"
+         id="rect14-11"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="280"
+         fill="#ffffff"
+         id="rect16-55"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="280"
+         fill="#000000"
+         id="rect18-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="290"
+         fill="#000000"
+         id="rect20-95"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="290"
+         fill="#ffffff"
+         id="rect22-19"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="290"
+         fill="#000000"
+         id="rect24-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="290"
+         fill="#ffffff"
+         id="rect26-84"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="300"
+         fill="#ffffff"
+         id="rect28-152"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="300"
+         fill="#ffffff"
+         id="rect30-26"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="300"
+         fill="#000000"
+         id="rect32-61"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="300"
+         fill="#ffffff"
+         id="rect34-82"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g95570"
+       transform="translate(0,-324)">
+      <rect
+         x="20"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-50"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="350"
+         fill="#000000"
+         id="rect4-16"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="350"
+         fill="#000000"
+         id="rect6-46"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="350"
+         fill="#ffffff"
+         id="rect8-128"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="350"
+         fill="#ffffff"
+         id="rect10-73"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="360"
+         fill="#ffffff"
+         id="rect12-00"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="360"
+         fill="#000000"
+         id="rect14-007"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="360"
+         fill="#ffffff"
+         id="rect16-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="360"
+         fill="#ffffff"
+         id="rect18-262"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="370"
+         fill="#ffffff"
+         id="rect20-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="370"
+         fill="#000000"
+         id="rect22-83"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="370"
+         fill="#000000"
+         id="rect24-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="370"
+         fill="#000000"
+         id="rect26-910"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="30"
+         y="380"
+         fill="#ffffff"
+         id="rect28-30"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="40"
+         y="380"
+         fill="#000000"
+         id="rect30-9"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="50"
+         y="380"
+         fill="#000000"
+         id="rect32-595"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="60"
+         y="380"
+         fill="#000000"
+         id="rect34-067"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g96361"
+       transform="translate(0,-324)">
+      <rect
+         x="100"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-536"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="350"
+         fill="#000000"
+         id="rect4-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="350"
+         fill="#000000"
+         id="rect6-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="350"
+         fill="#ffffff"
+         id="rect8-61"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="350"
+         fill="#ffffff"
+         id="rect10-28"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="360"
+         fill="#ffffff"
+         id="rect12-22"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="360"
+         fill="#000000"
+         id="rect14-8"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="360"
+         fill="#000000"
+         id="rect16-85"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="360"
+         fill="#ffffff"
+         id="rect18-554"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="370"
+         fill="#000000"
+         id="rect20-30"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="370"
+         fill="#000000"
+         id="rect22-35"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="370"
+         fill="#000000"
+         id="rect24-25"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="370"
+         fill="#ffffff"
+         id="rect26-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="110"
+         y="380"
+         fill="#ffffff"
+         id="rect28-56"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="120"
+         y="380"
+         fill="#ffffff"
+         id="rect30-10"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="130"
+         y="380"
+         fill="#000000"
+         id="rect32-25"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="140"
+         y="380"
+         fill="#ffffff"
+         id="rect34-92"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g97169"
+       transform="translate(0,-324)">
+      <rect
+         x="180"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="350"
+         fill="#000000"
+         id="rect4-4"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="350"
+         fill="#000000"
+         id="rect6-29"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="350"
+         fill="#ffffff"
+         id="rect8-56"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="350"
+         fill="#ffffff"
+         id="rect10-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="360"
+         fill="#ffffff"
+         id="rect12-86"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="360"
+         fill="#000000"
+         id="rect14-657"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="360"
+         fill="#ffffff"
+         id="rect16-13"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="360"
+         fill="#ffffff"
+         id="rect18-01"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="370"
+         fill="#ffffff"
+         id="rect20-6"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="370"
+         fill="#ffffff"
+         id="rect22-86"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="370"
+         fill="#000000"
+         id="rect24-64"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="370"
+         fill="#ffffff"
+         id="rect26-73"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="190"
+         y="380"
+         fill="#000000"
+         id="rect28-60"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="200"
+         y="380"
+         fill="#000000"
+         id="rect30-75"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="210"
+         y="380"
+         fill="#ffffff"
+         id="rect32-77"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="220"
+         y="380"
+         fill="#ffffff"
+         id="rect34-99"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g97994"
+       transform="translate(0,-324)">
+      <rect
+         x="260"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-10"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="350"
+         fill="#000000"
+         id="rect4-65"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="350"
+         fill="#000000"
+         id="rect6-00"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="350"
+         fill="#ffffff"
+         id="rect8-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="350"
+         fill="#000000"
+         id="rect10-66"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="360"
+         fill="#000000"
+         id="rect12-12"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="360"
+         fill="#ffffff"
+         id="rect14-55"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="360"
+         fill="#ffffff"
+         id="rect16-19"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="360"
+         fill="#000000"
+         id="rect18-07"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="370"
+         fill="#000000"
+         id="rect20-38"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="370"
+         fill="#ffffff"
+         id="rect22-24"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="370"
+         fill="#000000"
+         id="rect24-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="370"
+         fill="#000000"
+         id="rect26-884"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="270"
+         y="380"
+         fill="#000000"
+         id="rect28-480"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="280"
+         y="380"
+         fill="#ffffff"
+         id="rect30-445"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="290"
+         y="380"
+         fill="#ffffff"
+         id="rect32-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="300"
+         y="380"
+         fill="#ffffff"
+         id="rect34-91"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g98836"
+       transform="translate(0,-324)">
+      <rect
+         x="340"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-47"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="350"
+         fill="#000000"
+         id="rect4-57"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="350"
+         fill="#000000"
+         id="rect6-77"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="350"
+         fill="#ffffff"
+         id="rect8-70"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="350"
+         fill="#000000"
+         id="rect10-83"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="360"
+         fill="#000000"
+         id="rect12-71"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="360"
+         fill="#ffffff"
+         id="rect14-14"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="360"
+         fill="#ffffff"
+         id="rect16-76"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="360"
+         fill="#ffffff"
+         id="rect18-50"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="370"
+         fill="#ffffff"
+         id="rect20-17"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="370"
+         fill="#000000"
+         id="rect22-88"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="370"
+         fill="#000000"
+         id="rect24-716"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="370"
+         fill="#000000"
+         id="rect26-94"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="350"
+         y="380"
+         fill="#000000"
+         id="rect28-28"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="360"
+         y="380"
+         fill="#000000"
+         id="rect30-109"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="370"
+         y="380"
+         fill="#000000"
+         id="rect32-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="380"
+         y="380"
+         fill="#000000"
+         id="rect34-09"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g99695"
+       transform="translate(10,-314)">
+      <rect
+         x="410"
+         y="330"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-01"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="420"
+         y="340"
+         fill="#000000"
+         id="rect4-23"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="340"
+         fill="#000000"
+         id="rect6-67"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="340"
+         fill="#ffffff"
+         id="rect8-35"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="340"
+         fill="#000000"
+         id="rect10-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="420"
+         y="350"
+         fill="#ffffff"
+         id="rect12-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="350"
+         fill="#ffffff"
+         id="rect14-761"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="350"
+         fill="#ffffff"
+         id="rect16-86"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="350"
+         fill="#ffffff"
+         id="rect18-36"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="420"
+         y="360"
+         fill="#ffffff"
+         id="rect20-84"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="360"
+         fill="#000000"
+         id="rect22-29"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="360"
+         fill="#ffffff"
+         id="rect24-8821"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="360"
+         fill="#000000"
+         id="rect26-968"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="420"
+         y="370"
+         fill="#ffffff"
+         id="rect28-147"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="430"
+         y="370"
+         fill="#000000"
+         id="rect30-524"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="440"
+         y="370"
+         fill="#ffffff"
+         id="rect32-43"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="450"
+         y="370"
+         fill="#000000"
+         id="rect34-81"
+         style="stroke-width:10" />
+    </g>
+    <g
+       id="g100571"
+       transform="translate(0,-324)">
+      <rect
+         x="500"
+         y="340"
+         width="60"
+         height="60"
+         fill="#000000"
+         id="rect2-66"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="350"
+         fill="#000000"
+         id="rect4-91"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="350"
+         fill="#000000"
+         id="rect6-98"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="350"
+         fill="#ffffff"
+         id="rect8-65"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="350"
+         fill="#000000"
+         id="rect10-95"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="360"
+         fill="#ffffff"
+         id="rect12-72"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="360"
+         fill="#ffffff"
+         id="rect14-06"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="360"
+         fill="#000000"
+         id="rect16-27"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="360"
+         fill="#ffffff"
+         id="rect18-69"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="370"
+         fill="#000000"
+         id="rect20-226"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="370"
+         fill="#000000"
+         id="rect22-37"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="370"
+         fill="#000000"
+         id="rect24-59"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="370"
+         fill="#ffffff"
+         id="rect26-01"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="510"
+         y="380"
+         fill="#000000"
+         id="rect28-78"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="520"
+         y="380"
+         fill="#ffffff"
+         id="rect30-379"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="530"
+         y="380"
+         fill="#000000"
+         id="rect32-01"
+         style="stroke-width:10" />
+      <rect
+         width="10"
+         height="10"
+         x="540"
+         y="380"
+         fill="#000000"
+         id="rect34-32"
+         style="stroke-width:10" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="KOS"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 49.999998,77.999999 v 16"
+       id="path65990" />
+    <path
+       style="fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 49.999998,158 v 16"
+       id="path65992" />
+    <path
+       style="fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 49.999998,238 v 16"
+       id="path65994" />
+    <path
+       style="fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 49.999998,318.00001 v 15.99998"
+       id="path65996" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 81.587501,366 h 16"
+       id="path65998" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 161.58751,366 h 16"
+       id="path66000" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 241.58751,366 h 16"
+       id="path66002" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 321.58749,366 h 16.00002"
+       id="path66004" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 401.58752,366 h 15.99999"
+       id="path66006" />
+    <path
+       style="fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 481.58751,366 H 497.5875"
+       id="path66008" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:0.264583;stroke-opacity:1"
+       x="488.01138"
+       y="358.76147"
+       id="text3150-46-9"><tspan
+         sodipodi:role="line"
+         id="tspan3148-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c80000;fill-opacity:1;stroke:#c80000;stroke-width:0.264583;stroke-opacity:1"
+         x="488.01138"
+         y="358.76147">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:0.264583;stroke-opacity:1"
+       x="60.194302"
+       y="87.761467"
+       id="text3150-1-5-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan3148-63-7-5-93"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00c800;fill-opacity:1;stroke:#00c800;stroke-width:0.264583;stroke-opacity:1"
+         x="60.194302"
+         y="87.761467">Y</tspan></text>
+  </g>
+</svg>

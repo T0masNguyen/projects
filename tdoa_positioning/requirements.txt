@@ -1,0 +1,6 @@
+tomli>=2.0.1
+pandas>=2.0.3
+scipy>=1.11.1
+plotly>=5.15.0
+numpy>=1.25.1
+tqdm>=4.66.1
