@@ -1,12 +1,12 @@
 # Project Portfolio
 
-Welcome to my project portfolio! Below, you'll find an overview of some of the key projects I've worked on, each showcasing different skills and technologies. Whether it's developing software, designing interfaces, or working with robotics, these projects represent a broad range of my interests and capabilities.
+Welcome to my project portfolio! Below, you'll find an overview of some of the key projects I've worked on, each showcasing different skills and technologies. Whether it's developing software, designing interfaces, navigation using localization system or working with robotics, these projects represent a broad range of my interests and capabilities.
 
 ---
 
 ### 1. **TDoA Positioning**
    - **How does it work?**  
-     This project dives into the world of Time Difference of Arrival (TDoA) technology. I implemented a system to pinpoint the location of a tag by analyzing signals sent from multiple anchors. By comparing the time it takes for signals to reach the tag from different points, the system can accurately determine its position. It's a practical demonstration of how TDoA can be used in real-world positioning systems.
+     This project investigates the use of Time Difference of Arrival (TDoA) technology for accurate positioning. I implemented a system to pinpoint the location of a tag by analyzing signals sent from multiple anchors. By comparing the time it takes for signals to reach the tag from different points, the system can accurately determine its position. It's a practical demonstration of how TDoA can be used in real-world positioning systems.
        
 ---
 ### 2. **Robot Cell Calibration**
