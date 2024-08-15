@@ -1,4 +1,4 @@
-# image_measurment
+# image_measurement
 source code for the "imPRESSing" project:
 - camera calibration                    -> mit einem räumlichen Aruco-Target
 - base code for the facial landmarks    -> facial_landmarks_pose_estimation.py
