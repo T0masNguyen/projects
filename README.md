@@ -23,7 +23,7 @@ Welcome to my project portfolio! Below, you'll find an overview of some of the k
 
 ### 4. **Quadrocopter GUI**
    - **What did I build?**  
-     I designed a user-friendly graphical interface for controlling the Tello Edu quadrotor. This isn't just any interface—it displays real-time data from the quadrotor's sensors, including ultrasonic readings, barometric pressure, LED status, and even visual data from the camera. This project really brought the quadrotor's capabilities to life, making it easier and more intuitive to pilot and monitor remotely.
+     I designed a user-friendly graphical interface for controlling the Tello Edu quadrotor. This displays real-time data from the quadrotor's sensors, including ultrasonic readings, barometric pressure, LED status, and even visual data from the camera. This project really brought the quadrotor's capabilities to life, making it easier and more intuitive to pilot and monitor remotely.
 
 ---
 
