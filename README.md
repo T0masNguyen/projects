@@ -29,7 +29,7 @@ Welcome to my project portfolio! Below, you'll find an overview of some of the k
 
 ### 5. **Data Tracker (C++)**
    - **What's it about?**  
-     This project was part of a school assignment where I created a simple yet powerful expense tracking system using C++. The goal was to manage personal finances efficiently, all while applying Object-Oriented Programming (OOP) concepts like classes and inheritance. The end result is a flexible tool that helps users keep track of their spending, all neatly coded in C++.
+     This project was part of a school assignment where I created a simple expense tracking system using C++. The goal was to manage personal finances efficiently, all while applying Object-Oriented Programming (OOP) concepts like classes and inheritance. The end result is a flexible tool that helps users keep track of their spending, all neatly coded in C++.
 
 ---
 
