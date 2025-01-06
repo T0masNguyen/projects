@@ -11,7 +11,7 @@ Welcome to my project portfolio! Below, you'll find an overview of some of the k
 ---
 ### 2. **Robot Cell Calibration**
    - **Why is it important?**  
-     Working with mobile robots in manufacturing settings, I focused on calibrating camera systems for precise operations. This project involved calculating the exact positions where a robot should grip components, which is crucial for avoiding collisions and ensuring smooth, autonomous operation. By improving calibration accuracy, the robots can now work more reliably in their designated spaces.
+     During my time as a working student, I worked with autonomous robotic arms, focusing on calibrating their camera systems for precise operations. I developed a technique to detect binary-coded rings, translating 2D images into 3D spatial data. Using this, I derived calibration parameters to optimize camera positioning, enhancing the reliability and efficiency of the robotic system.
 
 ---
 
