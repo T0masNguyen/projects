@@ -64,7 +64,7 @@ Follow these steps to install and configure Mosquitto on a Windows machine:
 
 #### Step 3: Connect to Broker via Android Phone
 1. Open the phone app on Android device.
-2. Enter the broker's IP address (e.g., 192.168.1.100) and port (1883) in the app settings.
+2. Enter the broker's IP address (ifconfig inc cmd to find remote IP adress of Broker -> e.g., 192.168.1.100) and port (1883) in the app settings.
 3. Tap Connect to start streaming sensor data to the broker.
 
 #### Step 4: Subscribe to broker with Python Script to collect data
