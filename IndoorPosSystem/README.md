@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is focused on accurately determining the position of a tag within an area using multiple anchors as signal transmitters. The system leverages **Time Difference of Arrival (TDoA)** to estimate the tag's location, ensuring high precision through various algorithms and synchronization techniques.
+This project is focused on accurately determining the position of a tag within an area using multiple anchors as signal transmitters. The system uses **Time Difference of Arrival (TDoA)** to estimate the tag's location with high precision through various algorithms and synchronization techniques.
 
 ### System Components
 
