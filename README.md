@@ -1,8 +1,8 @@
 # Project Portfolio
 
 - SensorView (Android Studio, MQTT, Python)
-- IndoorPosSystem(Python, TDOA Algrorithm)
+- IndoorPosSystem(Python, MQTT, NTP, Positionning Algorithms using TDoA)
 - RobotNavigation(Kalman Filter, GNSS, Python, Linux)
-- CameraSystemCalibration(OpenCV, Python)
+- CameraSystemCalibration(Computer Vision using OpenCV, Python)
 - DataTracker(C++)
 - QuadrocopterGUI(Matlab)
