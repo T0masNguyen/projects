@@ -1,45 +1,44 @@
 # TDoA Downlink Positioning System
 
-## Project Description
+## Project Overview
 
-This project implements a Time Difference of Arrival (TDoA) Downlink Positioning System, designed to estimate the position of a tag in a given environment using multiple anchors as signal transmitters. The system is built to support high accuracy positioning by leveraging various algorithms and techniques to mitigate errors, improve synchronization, and ensure reliable data transfer.
+This project is focused on accurately determining the position of a tag within an area using multiple anchors as signal transmitters. The system leverages **Time Difference of Arrival (TDoA)** to estimate the tag's location, ensuring high precision through various algorithms and synchronization techniques.
 
-### System Overview
+### System Components
 
-- **Anchors and Tag**: 
-  - Several anchors are deployed to serve as signal transmitters.
-  - A single tag is used to receive these signals.
-  - The anchors are strategically placed in the environment to cover the desired area for positioning.
+- **Anchors and Tag**:
+  - **Anchors**: These are the fixed devices placed in the environment that transmit signals.
+  - **Tag**: This device receives signals from the anchors, and the goal is to estimate its position in the environment.
 
-- **Data Collection and Communication**: 
-  - A router within the office network is utilized to facilitate communication between the anchors and the central processing unit (PC).
-  - The PC continuously pulls data from the anchors and the tag.
-  - **Network Time Protocol (NTP)** is employed to synchronize the clocks of all devices involved, ensuring that the timing measurements are as accurate as possible.
-  - Data is transferred using **MQTT (Message Queuing Telemetry Transport)**, a lightweight messaging protocol ideal for efficient data communication in the system.
+- **Data Collection and Communication**:
+  - A **router** within the office network helps facilitate communication between the anchors and the central processing unit (PC).
+  - The PC continuously gathers data from both the anchors and the tag.
+  - The system uses **Network Time Protocol (NTP)** to synchronize all devices' clocks, ensuring accurate timing measurements.
+  - Data is transferred using **MQTT (Message Queuing Telemetry Transport)**, a lightweight messaging protocol that allows for efficient data communication.
 
 ### Position Estimation Algorithms
 
-To estimate the position of the tag, several algorithms were implemented and tested:
+To calculate the position of the tag, the system uses different algorithms:
 
-- **Least Squares Estimation (LSE)**: 
-  - A basic approach that minimizes the sum of the squared differences between the observed and calculated time differences.
-  - Provides an initial estimate of the tag's position but may require refinement for higher accuracy.
+- **Least Squares Estimation (LSE)**:
+  - A basic method that minimizes the squared differences between the observed and calculated time differences.
+  - Provides an initial estimate of the tag’s position but may need further refinement for better accuracy.
 
-- **Chan's Algorithm**: 
-  - A more advanced algorithm that improves upon the basic LSE by considering the geometric relationships between the anchors and the tag.
-  - Often used as a benchmark for TDoA systems due to its reliability and accuracy.
+- **Chan's Algorithm**:
+  - A more advanced algorithm that improves the basic LSE by considering the geometric relationships between the anchors and the tag.
+  - It's widely used as a benchmark in TDoA systems for its reliability and accuracy.
 
-- **Taylor Series Expansion (Taylor)**: 
-  - This iterative method refines the position estimate by linearizing the range equations and solving them iteratively.
-  - Particularly useful when higher accuracy is needed, as it can fine-tune the initial estimates provided by other methods.
+- **Taylor Series Expansion (Taylor)**:
+  - An iterative method that improves the position estimate by linearizing the range equations and solving them step by step.
+  - This method is particularly useful when higher accuracy is required, as it fine-tunes initial estimates provided by other methods.
 
 ### Clock Frequency Testing and Optimization
 
-- **Clock Synchronization**: 
-  - To further enhance the accuracy of the system, the clock frequencies of the anchors and tag were tested and optimized. This process helps in minimizing the timing errors that can significantly affect the accuracy of the position estimates.
+- **Clock Synchronization**:
+  - To further enhance the system's accuracy, the clock frequencies of the anchors and the tag are tested and optimized. This helps to reduce timing errors, which can significantly affect the position estimation.
 
 ### Conclusion
 
-This project demonstrates a robust implementation of a TDoA Downlink Positioning System, capable of accurately determining the position of a tag within a defined area. The integration of various position estimation algorithms, combined with meticulous synchronization and data transfer mechanisms, ensures that the system provides reliable and accurate results. The work done here lays a solid foundation for future enhancements and applications in various real-world scenarios.
+This project demonstrates the effective use of a TDoA Downlink Positioning System for accurate tag location estimation. By combining several position estimation algorithms, efficient synchronization, and reliable data transfer, the system ensures that the results are precise and trustworthy. This project serves as a strong foundation for further improvements and potential real-world applications.
 
-![result](https://github.com/user-attachments/assets/ebb3be4d-ed3f-4a86-994f-a6d3abf858d7)
+![Result](https://github.com/user-attachments/assets/ebb3be4d-ed3f-4a86-994f-a6d3abf858d7)
