@@ -35,9 +35,12 @@ Here's how the system is structured:
 ```
 ## SensorView App 
 
-![App Screenshot](resources/SensorView1.png)
-![App Screenshot](resources/SensorView2.png)
-![App Screenshot](resources/SensorView3.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="resources/SensorView1.png" width="200" />
+  <img src="resources/SensorView2.png" width="200" />
+  <img src="resources/SensorView3.png" width="200" />
+  <img src="resources/SensorView4.png" width="200" />
+</div>
 
 ## Setup Instructions
 
