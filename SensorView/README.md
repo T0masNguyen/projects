@@ -32,7 +32,7 @@ Here's how the system is structured:
           +------------------+
 
         (All components are on the same local network)
-
+```
 ## SensorView App 
 
 ![App Screenshot](resources/SensorView1.png)
